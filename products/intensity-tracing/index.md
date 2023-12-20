@@ -30,6 +30,7 @@
     </li>
     <li><a href="#gui-usage">GUI Usage</a></li>
     <li><a href="#console-usage">Console Usage</a></li>
+    <li><a href="#exported-data-visualization">Exported Data Visualization</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -121,7 +122,8 @@ Here a table summary of the configurable parameters:
 | ```selected_update_rate```             | string      | Set the chart update frequency (**"LOW"** or **"HIGH"**)                          | "LOW"         | Based on the **selected_update_rate** value and the number of **enabled_channels** an algorithm determines the **draw_frequency** value assuring a balanced chart data visualization               |
 | ```free_running_acquisition_time```    | boolean     | Set the acquisition time mode (**True** or **False**)                             | True          | If set to True, the _acquisition_time_millis_ is indeterminate, but _keep_points_ param needs to be specified. If set to False, the acquisition_time_millis param is needed (acquisition duration) |
 | ```keep_points```                      | number      | Set how many charts points to keep on the screen                                  | 1000          | This option sets the upper limit for the number of points visible in the chart display,  aiming to prevent visual clutter and enhance readability                                                  |
-| ```acquisition_time_millis```          | number/None | Set the data acquisition duration                                                 | None          | The acquisition duration is indeterminate (None) if _free_running_acquisition_time_ is set to True.                                                                                                |
+| ```acquisition_time_millis```          | number/None | Set the data acquisition duration                                                 | None          | The acquisition duration is indeterminate (None) if _free_running_acquisition_time_ is set to True.
+| ```write_data```             | boolean      | Set export data option to True/False   | False         | if set to _True_, the acquired raw data will be exported locally to the computer                                                                                 |
 
 <br/>
 
@@ -181,7 +183,55 @@ Here a table summary of the configurable parameters on code side:
 |-------------------------------|-------------|-----------------------------------------------------------------------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```enabled_channels```              | number[]    | set a list of enabled acquisition data channels (up to 8). e.g. [0,1,2,3,4,5,6,7] | [1]            | the list of enabled channels for photons data acquisition                                                                                                                                                                                                                           |
 | ```bin_width_micros```                 | number      | Set the numerical value in microseconds                                           | 1000 (ms)     | the time duration to wait for photons count accumulation.                                                                                                                                          |
- ```acquisition_time_millis```          | number/None | Set the data acquisition duration                                                 | None          | The acquisition duration could be determinate (_numeric value_)    or indeterminate (_None_)                                             
+ ```acquisition_time_millis```          | number/None | Set the data acquisition duration                                                 | None          | The acquisition duration could be determinate (_numeric value_)    or indeterminate (_None_)   
+ | ```write_data```             | boolean      | Set export data option to True/False   | True         | if set to _True_, the acquired raw data will be exported locally to the computer  
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>                                        
+
+
+## Exported Data Visualization
+
+<div align="center">
+    <img src="../../assets/exported-data-visualization.png" alt="GUI" width="100%">
+</div>
+
+To plot and visualize previously exported raw data (with GUI or console mode)  you can launch the```plot_data_file.py``` script. 
+This script reads binary data from the local saved file and utilizes the ```matplotlib``` library to visualize photons intensity informations.
+
+Each record in the file consists of a **_timestamp_** (time) and eight unsigned integer values representing different **channels** (ch_1 to ch_8). The script extracts the timestamp and the value from the first channel (ch_1) as an example and creates the plot.
+
+The format of each record is as follows:
+- Time (double, 8 bytes)
+- Channel 1 Value (unsigned int, 4 bytes)
+- Channel 2 Value (unsigned int, 4 bytes)
+- Channel 3 Value (unsigned int, 4 bytes)
+- Channel 4 Value (unsigned int, 4 bytes)
+- Channel 5 Value (unsigned int, 4 bytes)
+- Channel 6 Value (unsigned int, 4 bytes)
+- Channel 7 Value (unsigned int, 4 bytes)
+- Channel 8 Value (unsigned int, 4 bytes)
+
+where "Time" indicates the photons data acquisition time in milliseconds and each channel value represents the **photons count** for that acquisition time.
+
+To visualize your saved data, replace ```file_path``` value with the local path of your file:
+
+```file_path = 'INSERT DATA FILE PATH HERE'```
+
+You can find your file at this path:
+
+```C:\Users\YOUR_USER\.flim-labs\data```
+
+You can also choose which channels data analyze by simply replace ```ch_1``` with the appropriate variables of your target channels.
+
+e.g. If you want to visualize channel 2 data, replace this:
+
+```ch_values.append(ch_1)```
+
+with this line of code:
+
+```ch_values.append(ch_2)```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
