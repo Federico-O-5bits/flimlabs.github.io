@@ -117,22 +117,29 @@ The advanced mode bring a comprehensive range of customization options and provi
 ### Experiment settings
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
-| Field name          | Value type                    | Wizard mode | Advanced mode | Mandatory |
-|---------------------|-------------------------------|:-----------:|:-------------:|:---------:|
-| Device              | Flim data acquisition card name |      ✅      |       ✅       |      ✅    |
-| Type of experiments | Imaging \| Spectroscopy       |      ✅      |       ✅       |      ✅    |
-| Sync in             | USB \| SMA                    |      ✅      |       ✅       |      ✅    |
-| Sync out            | USB \| SMA                    |      ✅      |       ✅       |      ✅    |
+| Field name           | Value type         | Wizard mode | Advanced mode | Mandatory |
+|----------------------|--------------------|:-----------:|:-------------:|:---------:|
+| Device               | Flim data acquisition card name | ✅ | ✅ | ✅ |
+| Type of experiments  | Imaging \| Spectroscopy | ✅ | ✅ | ✅ |
+| Sync in              | USB \| SMA         | ✅ | ✅ | ✅ |
+| Sync out             | USB \| SMA         | ✅ | ✅ | ✅ |
+| Channel (from 1 to 8)| USB \| SMA         | ✅ | ✅ | ✅ |
+
 
 
 
 This table provides a more in-depth explanation of what each field means. 
+
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
 | Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment, select the DATA ACQUISITION CARD connected to your pc |
 | Type of experiments | Choose the type of experiment to perform: <br><br> **Imaging**: Image reconstruction transforms raw data into visual representations. It uses a scanning system, including mirrors and a lens, to precisely move a laser beam over a sample, pixel by pixel. Alternatively, a motorized stage can move the sample instead. This precise control is crucial for collecting accurate spatial information. <br><br> **Spectroscopy**: Fluorescence Correlation Spectroscopy (FCS) studies molecular dynamics by analyzing fluorescence fluctuations. It observes fluorescent molecules diffusing in and out of a specific volume, identifying individual molecular properties. The technique involves statistically analyzing time-dependent intensity F(t) to understand the amplitude and frequency of these fluctuations. FCS calculates the correlation between F(t) and F(t+τ) over various delay times τ, yielding an autocorrelation function G(τ) that reveals details about the fluorescent molecules.                                                      |
-| Sync in             | The Sync In port is responsible for accepting the input signal from the laser. Specify whether you will use a USB cable or SMA to connect to the Sync In port. |
-| Sync out            | The Sync out port is responsible for activating and modulating a laser source. Specify whether you will use a USB cable or SMA to connect to the Sync out port. |
+| Sync in              | The Sync In port is responsible for accepting the input signal from the laser. Specify whether you will use a USB cable or SMA to connect to the Sync In port. |
+| Sync out             | The Sync out port is responsible for activating and modulating a laser source. Specify whether you will use a USB cable or SMA to connect to the Sync out port. |
+| Channel (from 1 to 8)| Indicate the number of channels to be utilized for fluorescence sampling and choose the connection method – either USB cable or SMA – for that channel. |
+
+
+
 
 
 
