@@ -96,12 +96,37 @@ The "Last configuration used" section shows a list of the previous configuration
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Manage Settings*  
+* **Manage Settings** 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo.
 
 * **Start an experiment**  
 Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder)  
 *Check the sections below for detailed information about each modality*
+
+### Start an experiment
+
+*Configure an experiment*
+The first step to start an experiment is the configuration.
+
+*Wizard mode*
+In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process. This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
+
+*Advanced mode*
+The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
+
+*Experiment settings*
+Here a table summary 
+This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
+
+| Field name | Value type | explenation | wizard mode | advanced mode | mandatory |
+| -------------- | -------------- | -------------- | -------------- | -------------- |
+| Device | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. | [x] | [x] | [x]
+
+
+
+
+
+
 
 
 
