@@ -104,9 +104,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficit
 * **Start an experiment**  
 Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder)  
 *Check the sections below for detailed information about each modality*
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Start an experiment
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Configure an experiment
 The first step to start an experiment is the configuration.
@@ -116,9 +116,9 @@ In this mode, a graphical representation of the settings being configured is pro
 
 ### Advanced mode 
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Experiment settings
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
@@ -141,7 +141,7 @@ This table summarize the settings you will need to configure for both the Wizard
 | Offset left/right/top/bottom     | pixels (px)        | ✅ | ✅ | ❌ | ✅ | ✅ |
 
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 This table provides a more in-depth explanation of what each field means. 
@@ -164,7 +164,7 @@ This table provides a more in-depth explanation of what each field means.
 | Number of pixel on x/y line        | Set the same value as made in Box width/Box height. |
 | Offset left/right/top/bottom       | Specify the offset from the edges of the box from which to extract the images. <br> In advanced mode, check the helpfull visual representation at the bottom of the section. |
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
