@@ -37,9 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a software that aims at simplifying the data acquisition, reconstruction and analysis of fluorescence lifetime imaging experiments. The environment provides a user-friendly interface and intuitive tools that can be used by any user. .
+Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a software that aims at simplifying the data acquisition, reconstruction and analysis of fluorescence lifetime imaging experiments. The environment provides a user-friendly interface and intuitive tools that can be used by any user.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ### Key features
@@ -56,9 +56,7 @@ Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a
 
 <!-- GETTING STARTED -->
 ## Getting Started
-You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe).
- 
-Or check our changelog for older versions:[link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
+You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Or check our changelog for older versions at this [link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
 
 ### Prerequisites
 
@@ -66,7 +64,7 @@ Or check our changelog for older versions:[link](https://github.com/Federico-O-5
 
 ### Installation
 
-Once the download is complete follow theste steps to install FLIM STUDIO on your pc:
+Once the download is completed follow these steps to install FLIM STUDIO on your pc:
 
 * Double click on the FLIM STUDIO installer, the installation process will start.
 * Enter the serial number you have been provided, then click the "Next>" button.
@@ -74,6 +72,34 @@ Once the download is complete follow theste steps to install FLIM STUDIO on your
 * Chose the installation folder or leave the default value, Then click the "Install" button.
 * Once the installation is completed click the "Close" button.
 * Now FLIM STUDIO is ready to run on your PC.
+
+<!-- HOW TO USE -->
+## How to use
+
+### Home section
+
+The home section is the first view you'll see when starting FLIM STUDIO.
+
+<div align="center">
+    <img src="../../assets/flim-studio/flim-studio-home.png" alt="Logo" width="120" height="120">
+</div>
+
+Here you can see several sections:
+
+* **** Last experiment saved: 
+It shows a list of the previous experiment saved, for each experiment you can read the name on the top of the figure and the data at the bottom.
+Click on a saved experiment to load it in FLIM STUDIO
+Click the reload button to refresh the list.
+
+* **** Last configuration used: 
+It shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
+Click on a saved configuration to load it in FLIM STUDIO
+Click the reload button to refresh the list.
+
+* *** Start
+Click the Start button to start an experiment, the menu will require you to select the modality through execute the experiment (Wizard, Advanced, From Local Folder)
+
+
 
 
 
