@@ -118,9 +118,10 @@ The advanced mode bring a comprehensive range of customization options and provi
 Here a table summary 
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
-| Field name                    | Value type                     | Explanation                                                  | Wizard mode | Advanced mode | Mandatory |
-|:-----------------------------:|:------------------------------:|:------------------------------------------------------------:|:-----------:|:-------------:|:---------:|
-| Device                        | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. |     ✅     |      ✅      |     ✅    |
+| Field name                     | Value type                    | Explanation                                                 | Wizard mode | Advanced mode | Mandatory |
+|--------------------------------|-------------------------------|-------------------------------------------------------------|:-----------:|:-------------:|:---------:|
+| Device                         | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. |      ✅      |       ✅       |      ✅     |
+
 
 
 
