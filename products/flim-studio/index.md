@@ -81,7 +81,7 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 The home section is the first view you'll see when starting FLIM STUDIO.
 
 <div align="center">
-    <img src="../../assets/flim-studio/flim-studio-home.png" alt="Logo" width="120" height="120">
+    <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="Logo" width="120" height="120">
 </div>
 
 Here you can see several sections:
