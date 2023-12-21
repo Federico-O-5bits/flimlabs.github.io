@@ -126,7 +126,7 @@ This table summarize the settings you will need to configure for both the Wizard
 
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
-| Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment, select the DATA ACQUISITION CARD connected to your pc |
+| Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment,<br>select the DATA ACQUISITION CARD connected to your pc |
 | Type of experiments | Choose the type of experiment to perform                                                      |
 
 
