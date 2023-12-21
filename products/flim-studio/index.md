@@ -105,22 +105,23 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 
 ### Start an experiment
 
-*Configure an experiment*
+**Configure an experiment**
 The first step to start an experiment is the configuration.
 
-*Wizard mode*
+**Wizard mode**
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process. This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
 
-*Advanced mode*
+**Advanced mode**
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
 
-*Experiment settings*
+**Experiment settings**
 Here a table summary 
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
-| Field name | Value type | explenation | wizard mode | advanced mode | mandatory |
-| -------------- | -------------- | -------------- | -------------- | -------------- |
-| Device | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. | [x] | [x] | [x]
+| Field name                     | Value type                    | Explanation                                                 | Wizard mode | Advanced mode | Mandatory |
+|--------------------------------|-------------------------------|-------------------------------------------------------------|-------------|---------------|-----------|
+| Device                         | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. | [x]        | [x]           | [x]       |
+
 
 
 
