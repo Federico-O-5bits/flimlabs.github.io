@@ -73,10 +73,11 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 * Once the installation is completed click the "Close" button.
 * Now FLIM STUDIO is ready to run on your PC.
 
-<!-- HOW TO USE -->
-## How to use
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- HOW TO USE -->
+## How to use
+
   
 ### Home section
 
