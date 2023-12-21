@@ -103,19 +103,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficit
 Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder)  
 *Check the sections below for detailed information about each modality*
 
-### Start an experiment
+## Start an experiment
 
-**Configure an experiment**
+###Configure an experiment###  
 The first step to start an experiment is the configuration.
 
-**Wizard mode**
+###Wizard mode###  
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process. This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
 
-**Advanced mode**
+###Advanced mode###  
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
 
-**Experiment settings**
-Here a table summary 
+###Experiment settings###  
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
 | Field name          | Value type                    | Wizard mode | Advanced mode | Mandatory |
@@ -125,7 +124,7 @@ This table summarize the settings you will need to configure for both the Wizard
 | Sync in             | USB \| SMA                    |      ✅      |       ✅       |      ✅    |
 
 
-
+This table provides a more in-depth explanation of what each field means.
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
 | Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment, select the DATA ACQUISITION CARD connected to your pc |
