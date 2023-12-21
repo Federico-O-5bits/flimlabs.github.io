@@ -128,6 +128,7 @@ This table summarize the settings you will need to configure for both the Wizard
 | Pixel                | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ❌ |
 | Line                 | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ❌ |
 | Frame                | USB \| SMA         | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Pixel dwell time     | number(μs )        | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 
 
@@ -145,6 +146,8 @@ This table provides a more in-depth explanation of what each field means.
 | Pixel                 | This port is intended to receive data regarding the spatial coordinate Pixel clock. <br> The spatial coordinate Pixel clock dictate the exposure time of each pixel (dwell time). <br> Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). |
 | Line                  | This port is intended to receive data regarding the spatial coordinate Line clock. <br> Govern the readout speed of each pixel row (refer to port ref2). <br> Specify whether you will connect to this port via SMA or USB cable. |
 | Frame                 | This port is intended to receive data regarding the spatial coordinate Frame clock. <br> Regulate the acquisition rate of the entire image (frame rate) (refer to port ref3). <br> Specify whether you will connect to this port via SMA or USB cable. |
+| Pixel dwell time      | Specify in microseconds the exposure time of each pixel to the scanner. |
+
 
 
 
