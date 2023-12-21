@@ -75,7 +75,9 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 
 <!-- HOW TO USE -->
 ## How to use
-
+  
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
 ### Home section
 
 The home section is the first view you'll see when starting FLIM STUDIO.
@@ -84,7 +86,7 @@ The home section is the first view you'll see when starting FLIM STUDIO.
     <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="Logo"">
 </div>
 
-Here you can perform several sections:
+Here you can perform several actions:
 
 * **Load a seved experiment**  
 The "Last experiment saved" section shows a list of saved experiments, for each of them you can read the name on the top of the figure and the data at the bottom.
@@ -104,6 +106,7 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 *Check the sections below for detailed information about each modality*
 
 ## Start an experiment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Configure an experiment
 The first step to start an experiment is the configuration.
@@ -115,6 +118,8 @@ In this mode, a graphical representation of the settings being configured is pro
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
 
 ### Experiment settings
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
 | Field name           | Value type         | Wizard mode | Advanced mode | Mandatory | Imaging | Spectroscopy |
