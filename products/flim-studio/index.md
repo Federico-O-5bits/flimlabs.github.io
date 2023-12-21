@@ -84,20 +84,20 @@ The home section is the first view you'll see when starting FLIM STUDIO.
     <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="Logo"">
 </div>
 
-Here you can see several sections:
+Here you can perform several sections:
 
-* **Last experiment saved**  
-It shows a list of the previous experiment saved, for each experiment you can read the name on the top of the figure and the data at the bottom.
+* **Load a seved experiment**  
+The "Last experiment saved" section shows a list of saved experiments, for each of them you can read the name on the top of the figure and the data at the bottom.
 Click on a saved experiment to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Last configuration used**  
-It shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
+* **Load a seved configuration**  
+The "Last configuration used" section shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Start**  
-Click the Start button to start an experiment, the menu will require you to select the modality through execute the experiment (Wizard, Advanced, From Local Folder)
+* **Start an experiment**  
+Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder) *Check the sections below for detailed information about each modality*
 
 
 
