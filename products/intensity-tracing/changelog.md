@@ -10,5 +10,7 @@
 - Draw frequency algorithm built upon update rate and number of channels inputs
 - Automatically set the correct firmware based on the connection channel selected (USB/SMA) 
 - UI errors handling improvements 
+- Export data functionality added
+- Add ```plot_data_file.py``` script to analyze and plot exported data
 
 
