@@ -139,7 +139,7 @@ This table provides a more in-depth explanation of what each field means.
 | Sync out             | The Sync out port is responsible for activating and modulating a laser source. Specify whether you will use a USB cable or SMA to connect to the Sync out port. |
 | Channel (from 1 to 8)| Indicate the number of channels to be utilized for fluorescence sampling and choose the connection method – either USB cable or SMA – for that channel. |
 | Reconstruction mode   | Image reconstruction involves the use of three fundamental spatial coordinates: Pixel clock, Line clock, and Frame clock. Each of these coordinates plays a crucial role in accurately mapping the spatial information necessary for reconstructing a detailed and coherent image from the collected data. <br><br> FLIM STUDIO allows for conducting experiments with excellent results even when not all three spatial coordinates are available. The experiment can be carried out even in the presence of only the line clock and frame clock coordinates, or just the frame clock coordinate alone. |
-| Pixel                 | This port is intended to receive data regarding the spatial coordinate Pixel clock. <br><br> The spatial coordinate Pixel clock Dictate the exposure time of each pixel (dwell time). <br><br> Specify whether you will connect to this port via SMA or USB cable. |
+| Pixel                 | This port is intended to receive data regarding the spatial coordinate Pixel clock. <br> The spatial coordinate Pixel clock dictate the exposure time of each pixel (dwell time). <br> Specify whether you will connect to this port via SMA or USB cable. |
 
 
 
