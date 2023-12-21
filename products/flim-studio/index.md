@@ -126,8 +126,9 @@ This table summarize the settings you will need to configure for both the Wizard
 
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
-| Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment,<br>select the DATA ACQUISITION CARD connected to your pc |
-| Type of experiments | Choose the type of experiment to perform                                                      |
+| Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment, select the DATA ACQUISITION CARD connected to your pc |
+| Type of experiments | Choose the type of experiment to perform <br> Imaging: 
+Image reconstruction transforms raw data into visual representations. It uses a scanning system, including mirrors and a lens, to precisely move a laser beam over a sample, pixel by pixel. Alternatively, a motorized stage can move the sample instead. This precise control is crucial for collecting accurate spatial information.                                                      |
 
 
 
