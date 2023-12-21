@@ -128,8 +128,10 @@ This table summarize the settings you will need to configure for both the Wizard
 | Pixel                | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ❌ |
 | Line                 | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ❌ |
 | Frame                | USB \| SMA         | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Pixel dwell time     | number(μs )        | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Pixel size           | number(μm )        | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Pixel dwell time     | number(μs)         | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Pixel size           | number(μm)         | ✅ | ✅ | ✅ | ✅ |
+| Harmonic content     | number             | ❌ | ✅ | ✅ | ✅ | ✅ |
+
 
 
 
@@ -149,6 +151,8 @@ This table provides a more in-depth explanation of what each field means.
 | Frame                 | This port is intended to receive data regarding the spatial coordinate Frame clock. <br> Regulate the acquisition rate of the entire image (frame rate) (refer to port ref3). <br> Specify whether you will connect to this port via SMA or USB cable. |
 | Pixel dwell time      | Specify in microseconds the exposure time of each pixel to the scanner. |
 | Pixel size            | Specify the size of each pixel in micrometers. |
+| Harmonic content      | Setting the harmonic content value will enable you to find the right balance between resolution and accuracy in your measurements. By increasing the Harmonic content value, you can enhance the resolution of your experiments, measuring even the shortest fluorescence lifetimes. This field is configured during the Reference phase, and the value set at this stage will serve as a constant reference throughout the Scouting and Data phases, remaining unchanged. |
+
 
 
 
