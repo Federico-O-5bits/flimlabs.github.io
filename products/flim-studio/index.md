@@ -124,6 +124,10 @@ This table summarize the settings you will need to configure for both the Wizard
 | Type of experiments | Imaging \| Spectroscopy       |      ✅      |       ✅       |      ✅    |
 
 
+| Field name          | Explanation                                           |
+|---------------------|-------------------------------------------------------|
+| Device              | Flim data acquisition card name                       |
+| Type of experiments | Choose the type of experiment to perform              |
 
 
 
