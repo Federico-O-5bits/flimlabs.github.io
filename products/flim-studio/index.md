@@ -81,22 +81,22 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 The home section is the first view you'll see when starting FLIM STUDIO.
 
 <div align="center">
-    <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="Logo" width="120" height="120">
+    <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="Logo"">
 </div>
 
 Here you can see several sections:
 
-* **** Last experiment saved: 
+* **Last experiment saved** 
 It shows a list of the previous experiment saved, for each experiment you can read the name on the top of the figure and the data at the bottom.
 Click on a saved experiment to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **** Last configuration used: 
+* **Last configuration used** 
 It shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* *** Start
+* **Start**
 Click the Start button to start an experiment, the menu will require you to select the modality through execute the experiment (Wizard, Advanced, From Local Folder)
 
 
