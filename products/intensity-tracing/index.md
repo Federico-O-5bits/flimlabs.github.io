@@ -52,6 +52,8 @@ Welcome to [FLIM LABS Intensity Tracing](https://github.com/pontino/flim-python-
 * [Python](https://www.python.org/)
 * [PyQt5](https://pypi.org/project/PyQt5/)
 * [pglive](https://pypi.org/project/pglive/)
+* [matplotlib](https://pypi.org/project/matplotlib/)
+* [flim-labs](https://pypi.org/project/flim-labs/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +61,7 @@ Welcome to [FLIM LABS Intensity Tracing](https://github.com/pontino/flim-python-
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To directly test the application, skipping the prerequisites and installation requirements you can download an installer at this [link](https://www.google.com).
+To directly test the application, skipping the prerequisites and installation requirements you can download an installer at this [link](http://www.flimlabs.com/setup/intensity-tracing-setup.exe) (_Note: you still need to have the FLIM LABS acquisition card_). 
 
 To get a local copy up and running follow these steps.
 
@@ -67,9 +69,9 @@ To get a local copy up and running follow these steps.
 
 To be able to run this project locally on your machine you need to satisfy these requirements:
 * Possess a [FLIM LABS acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data
-* The acquisition card requires a _Windows_ or _Linux_ OS
 * ZestSC3 drivers installed
 * Python version >= 3.8
+* Windows OS
 
 ### Installation
 
