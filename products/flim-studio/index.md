@@ -96,8 +96,12 @@ The "Last configuration used" section shows a list of the previous configuration
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
+* **Manage Settings*  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo.
+
 * **Start an experiment**  
-Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder) *Check the sections below for detailed information about each modality*
+Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder)  
+*Check the sections below for detailed information about each modality*
 
 
 
