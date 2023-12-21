@@ -121,6 +121,7 @@ This table summarize the settings you will need to configure for both the Wizard
 | Field name                     | Value type                    | Explanation                                                 | Wizard mode | Advanced mode | Mandatory |
 |--------------------------------|-------------------------------|-------------------------------------------------------------|:-----------:|:-------------:|:---------:|
 | Device                         | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. |      ✅      |       ✅       |      ✅     |
+| Type of experiments | Imaging \| Spectroscopy | Choose whether to perform an imaging or spectroscopy experiment. |      ✅      |       ✅       |      ✅     |
 
 
 
