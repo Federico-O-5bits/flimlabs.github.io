@@ -121,7 +121,8 @@ This table summarize the settings you will need to configure for both the Wizard
 | Field name          | Value type           | Explanation                                               | Wizard mode | Advanced mode | Mandatory |
 |---------------------|----------------------|-----------------------------------------------------------|:-----------:|:-------------:|:---------:|
 | Device              | Flim data acquisition card name | Select the FLIM LABS Data Acquisition card connected to your PC. |      ✅      |       ✅       |      ✅     |
-| Type of experiments | Imaging \| Spectroscopy | Choose whether to perform an imaging or spectroscopy experiment. \| Imaging: Image reconstruction transforms raw data into visual representations. It uses a scanning system, including mirrors and a lens, to precisely move a laser beam over a sample, pixel by pixel. Alternatively, a motorized stage can move the sample instead. This precise control is crucial for collecting accurate spatial information. |      ✅      |       ✅       |      ✅     |
+| Type of experiments | Imaging \| Spectroscopy | Choose whether to perform an imaging or spectroscopy experiment.  
+Imaging: Image reconstruction transforms raw data into visual representations. It uses a scanning system, including mirrors and a lens, to precisely move a laser beam over a sample, pixel by pixel. Alternatively, a motorized stage can move the sample instead. This precise control is crucial for collecting accurate spatial information. |      ✅      |       ✅       |      ✅     |
 
 
 
