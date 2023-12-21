@@ -117,13 +117,13 @@ The advanced mode bring a comprehensive range of customization options and provi
 ### Experiment settings
 This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
 
-| Field name           | Value type         | Wizard mode | Advanced mode | Mandatory |
-|----------------------|--------------------|:-----------:|:-------------:|:---------:|
-| Device               | Flim data acquisition card name | ✅ | ✅ | ✅ |
-| Type of experiments  | Imaging \| Spectroscopy | ✅ | ✅ | ✅ |
-| Sync in              | USB \| SMA         | ✅ | ✅ | ✅ |
-| Sync out             | USB \| SMA         | ✅ | ✅ | ✅ |
-| Channel (from 1 to 8)| USB \| SMA         | ✅ | ✅ | ✅ |
+| Field name           | Value type         | Wizard mode | Advanced mode | Mandatory | Imaging | Spectroscopy |
+|----------------------|--------------------|:-----------:|:-------------:|:---------:|:-------:|:------------:|
+| Device               | Flim data acquisition card name | ✅ | ✅ | ✅ | ✅ |
+| Type of experiments  | Imaging \| Spectroscopy | ✅ | ✅ | ✅ | ✅ |
+| Sync in              | USB \| SMA         | ✅ | ✅ | ✅ | ✅ |
+| Sync out             | USB \| SMA         | ✅ | ✅ | ✅ | ✅ |
+| Channel (from 1 to 8)| USB \| SMA         | ✅ | ✅ | ✅ | ✅ |
 
 
 
