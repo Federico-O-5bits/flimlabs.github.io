@@ -157,7 +157,7 @@ This table provides a more in-depth explanation of what each field means.
 | Harmonic content      | Setting the harmonic content value will enable you to find the right balance between resolution and accuracy in your measurements. <br>By increasing the Harmonic content value, you can enhance the resolution of your experiments, measuring even the shortest fluorescence lifetimes. <br>This field is configured during the Reference phase, and the value set at this stage will serve as a constant reference throughout the Scouting and Data phases, remaining unchanged. |
 | Box width/height      | Specify the width/height of the frame to scan. |
 | Number of pixel on x/y line        | Set the same value as made in Box width/Box height. |
-| Offset left/right/top/bottom       | Specify the offset from the edges of the box from which to extract the images. <br> In advanced mode, check the helpfull visual representation at the bottom of the section |
+| Offset left/right/top/bottom       | Specify the offset from the edges of the box from which to extract the images. <br> In advanced mode, check the helpfull visual representation at the bottom of the section. |
 
 
 
