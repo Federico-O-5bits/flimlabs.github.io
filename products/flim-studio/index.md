@@ -126,8 +126,7 @@ This table summarize the settings you will need to configure for both the Wizard
 
 
 
-This table provides a more in-depth explanation of what each field means.  
-
+This table provides a more in-depth explanation of what each field means. 
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
 | Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment, select the DATA ACQUISITION CARD connected to your pc |
