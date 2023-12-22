@@ -110,6 +110,7 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 ## Start an experiment
 
 ### Configure an experiment
+<a name="experiment-configuration"></a>
 The first step to start an experiment is the configuration.
 
 ### Wizard mode
@@ -166,6 +167,14 @@ This table provides a more in-depth explanation of what each field means.
 | Offset left/right/top/bottom       | Specify the offset from the edges of the box from which to extract the images. <br> In advanced mode, check the helpfull visual representation at the bottom of the section. |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## IMAGING RECONSTRUCTION EXPERIMENT
+this section deals with more in-depth description of the imaging reconstruction experiment.
+
+### SOFTWARE CALIBRATION
+
+After completing the [experiment configuration](#experiment-configuration).
+
 
 
 
