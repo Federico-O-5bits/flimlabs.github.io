@@ -173,7 +173,7 @@ This table provides a more in-depth explanation of what each field means.
 this section deals with more in-depth description of the imaging reconstruction experiment.
 
 <div align="center">
-    <img src="../../assets/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div>
 
 ### SOFTWARE CALIBRATION
