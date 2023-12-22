@@ -59,7 +59,7 @@ Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a
 You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Or check our changelog for different versions at this [link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
 
 ### Prerequisites
-
+* Possess a [FLIM LABS acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data
 * Windows OS
 
 ### Installation
