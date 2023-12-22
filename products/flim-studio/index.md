@@ -176,9 +176,29 @@ this section deals with more in-depth description of the imaging reconstruction 
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div>
 
+The imaging reconstruction experiment section provides three operational modes (*REFERENCE*, *SCOUTING*, *DATA*), allowing a systematic approach to fine-tune experiments.
+
+### SELECT THE REGION OF INTEREST (ROI)
+ The scouting mode allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
+
+ You can use the scouting mode before and after the software calibration.
+
 ### SOFTWARE CALIBRATION
 
-After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration.
+After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
+(*the scouting mode is optional*).
+
+Use the *REFERENCE* mode to calibrate the software and follow these steps:
+* Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
+* Navigate to the upper-right corner of the interface and set the decay time in the "Decay time" input field. 
+* In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
+* Begin the acquisition process by clicking the start icon, located at the top right of the interface.
+
+The software will commence data acquisition, utilizing the predefined decay time for self-calibration. Data acquisition will automatically cease upon reaching the designated number of frames. Note that this calibration process is a one-time requirement and is not necessary for future data acquisitions.
+
+After successful calibration, you are ready to proceed with.
+
+## START THE DATA ACQUISITION
 
 
 
