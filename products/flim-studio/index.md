@@ -56,7 +56,7 @@ Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a
 
 <!-- GETTING STARTED -->
 ## Getting Started
-You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Or check our changelog for older versions at this [link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
+You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Or check our changelog for different versions at this [link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
 
 ### Prerequisites
 
@@ -113,6 +113,7 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 
 ### Configure an experiment
 The first step to start an experiment is the configuration.
+FLIM STUDIO provides two configuration modalities, **WIZARD MODE** and **ADVANCED MODE**.
 
 ### Wizard mode
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process. This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
@@ -130,7 +131,7 @@ This table summarize the settings you will need to configure for both the Wizard
 | Device               | Flim data acquisition card name | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Type of experiments  | Imaging \| Spectroscopy | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Sync in              | USB \| SMA         | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Sync out             | USB \| SMA         | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Sync out             | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Channel (from 1 to 8)| USB \| SMA         | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Reconstruction mode  | Pixel,Line & Frame \| Line & Frame \| Pixel | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Pixel                | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ❌ |
@@ -156,10 +157,10 @@ This table provides a more in-depth explanation of what each field means.
 | Sync in              | The Sync In port is responsible for accepting the input signal from the laser. Specify whether you will use a USB cable or SMA to connect to the Sync In port. |
 | Sync out             | The Sync out port is responsible for activating and modulating a laser source. Specify whether you will use a USB cable or SMA to connect to the Sync out port. |
 | Channel (from 1 to 8)| Indicate the number of channels to be utilized for fluorescence sampling and choose the connection method – either USB cable or SMA – for that channel. |
-| Reconstruction mode   | Image reconstruction involves the use of three fundamental spatial coordinates: Pixel clock, Line clock, and Frame clock. Each of these coordinates plays a crucial role in accurately mapping the spatial information necessary for reconstructing a detailed and coherent image from the collected data. <br><br> FLIM STUDIO allows for conducting experiments with excellent results even when not all three spatial coordinates are available. The experiment can be carried out even in the presence of only the line clock and frame clock coordinates, or just the frame clock coordinate alone. |
-| Pixel                 | This port is intended to receive data regarding the spatial coordinate Pixel clock. <br> The spatial coordinate Pixel clock dictate the exposure time of each pixel (dwell time). <br> Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). |
-| Line                  | This port is intended to receive data regarding the spatial coordinate Line clock. <br> Govern the readout speed of each pixel row (refer to port ref2). <br> Specify whether you will connect to this port via SMA or USB cable. |
-| Frame                 | This port is intended to receive data regarding the spatial coordinate Frame clock. <br> Regulate the acquisition rate of the entire image (frame rate) (refer to port ref3). <br> Specify whether you will connect to this port via SMA or USB cable. |
+| Reconstruction mode   | Specify wich spatial coordinates will be provided for the data acquisition. <br>Image reconstruction involves the use of three fundamental spatial coordinates: Pixel clock, Line clock, and Frame clock. Each of these coordinates plays a crucial role in accurately mapping the spatial information necessary for reconstructing a detailed and coherent image from the collected data. <br><br> FLIM STUDIO allows for conducting experiments with excellent results even when not all three spatial coordinates are available. The experiment can be carried out even in the presence of only the line clock and frame clock coordinates, or just the frame clock coordinate alone. |
+| Pixel                 | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Pixel clock. <br> The spatial coordinate Pixel clock dictate the exposure time of each pixel (dwell time). |
+| Line                  | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Line clock. <br> Govern the readout speed of each pixel row (refer to port ref2). Specify whether you will connect to this port via SMA or USB cable. |
+| Frame                 | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Frame clock. <br> Regulate the acquisition rate of the entire image (frame rate) (refer to port ref3).|
 | Pixel dwell time      | Specify in microseconds the exposure time of each pixel to the scanner. |
 | Pixel size            | Specify the size of each pixel in micrometers. |
 | Harmonic content      | Setting the harmonic content value will enable you to find the right balance between resolution and accuracy in your measurements. <br>By increasing the Harmonic content value, you can enhance the resolution of your experiments, measuring even the shortest fluorescence lifetimes. <br>This field is configured during the Reference phase, and the value set at this stage will serve as a constant reference throughout the Scouting and Data phases, remaining unchanged. |
@@ -176,13 +177,14 @@ this section deals with more in-depth description of the imaging reconstruction 
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div>
 
-The imaging reconstruction experiment section provides three operational modes (**REFERENCE***, ***SCOUTING***, ***DATA***), allowing a systematic approach to fine-tune experiments.
+The imaging reconstruction experiment section provides three operational modes (**REFERENCE**, ***SCOUTING***, ***DATA***), allowing a systematic approach to fine-tune experiments.
 
 ### SELECT THE REGION OF INTEREST (ROI)
  The **SCOUTING** mode allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
  You can use the scouting mode before and after the software calibration.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="software-calibration"></a>
 
@@ -201,18 +203,21 @@ The software will commence data acquisition, utilizing the predefined decay time
 
 After successful calibration, you are ready to proceed with.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### START THE DATA ACQUISITION
 
 After completing the [software calibration](#software-calibration), the next step is the data acquisition.
-Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the real sample*). 
+Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
 Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame" input field.
 Then begin the acquisition process by clicking the start icon, located at the top right of the interface.
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the data analysis.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+### DATA ANALYSIS
 
 
 
