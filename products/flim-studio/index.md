@@ -109,8 +109,9 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 
 ## Start an experiment
 
-### Configure an experiment
 <a name="experiment-configuration"></a>
+
+### Configure an experiment
 The first step to start an experiment is the configuration.
 
 ### Wizard mode
