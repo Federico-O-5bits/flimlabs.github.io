@@ -183,6 +183,9 @@ The imaging reconstruction experiment section provides three operational modes (
 
  You can use the scouting mode before and after the software calibration.
 
+
+<a name="software-calibration"></a>
+
 ### SOFTWARE CALIBRATION
 
 After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
@@ -198,7 +201,10 @@ The software will commence data acquisition, utilizing the predefined decay time
 
 After successful calibration, you are ready to proceed with.
 
-## START THE DATA ACQUISITION
+### START THE DATA ACQUISITION
+
+After completing the [SOFTWARE CALIBRATION](#software-calibration), the next step is the software calibration
+
 
 
 
