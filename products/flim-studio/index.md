@@ -84,7 +84,7 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 The home section is the first view you'll see when starting FLIM STUDIO.
 
 <div align="center">
-    <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="Logo"">
+    <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="flim studio home section">
 </div>
 
 Here you can perform several actions:
@@ -172,9 +172,14 @@ This table provides a more in-depth explanation of what each field means.
 ## IMAGING RECONSTRUCTION EXPERIMENT
 this section deals with more in-depth description of the imaging reconstruction experiment.
 
+<div align="center">
+    <img src="../../assets/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
+</div>
+
 ### SOFTWARE CALIBRATION
 
-After completing the [experiment configuration](#experiment-configuration).
+After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration.
+
 
 
 
