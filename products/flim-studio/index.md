@@ -312,7 +312,7 @@ Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## Contacts
 
 FLIM LABS: info@flimlabs.com
 
