@@ -229,10 +229,10 @@ Once the data acquisition is completed you can start analyzing the experiment re
 
 The section consists of four elements, listed from left to right:
 
-**1.** **Photon Number Filters**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons.
-**2.** **Color Map Selector**: Clicking on the colored bar opens a selection menu where you can choose your preferred color map. The selected color map will be applied to the adjacent reconstructed image.
-**3.** **Sample Image**: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
-**4.** **Toolbar**: From the top, you can use the following features:
+1. **Photon Number Filters**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons.
+2. **Color Map Selector**: Clicking on the colored bar opens a selection menu where you can choose your preferred color map. The selected color map will be applied to the adjacent reconstructed image.
+3. **Sample Image**: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
+4. **Toolbar**: From the top, you can use the following features:
       * **Magnify**: Transforms the mouse cursor into a magnifying glass. Select the magnification value and move the cursor over the reconstructed image to explore it.
       * **Zoom**: After selecting the zoom value, an enlarged version of the reconstructed image will be displayed.
       * **Unlock**: By clicking on a point of the reconstructed image, you can view its corresponding representation on the TCSPC HISTOGRAM[2]. To click on another point of the image, unlock the cursor by clicking on 'unlock'.
