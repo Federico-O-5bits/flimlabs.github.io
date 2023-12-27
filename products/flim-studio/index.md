@@ -27,10 +27,10 @@
       <a href="#home-section">Home section</a>
       <ul>
         <li>
-           <a href="#**-load-a-saved-experiment-**">Load a saved experiment</a>
+           <a href="#load-a-saved-experiment">Load a saved experiment</a>
         </li>
          <li>
-           <a href="#**-load-a-saved-configuration-**">Load a saved configuration</a>
+           <a href="#load-a-saved-configuration">Load a saved configuration</a>
         </li>
          <li>
            <a href="#manage-settings">Manage settings</a>
@@ -134,20 +134,20 @@ The home section is the first view you'll see when starting FLIM STUDIO.
 
 Here you can perform several actions:
 
-* **Load a saved experiment**  
+* ###Load a saved experiment 
 The "Last experiment saved" section shows a list of saved experiments, for each of them you can read the name on the top of the figure and the data at the bottom.
 Click on a saved experiment to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Load a saved configuration**  
+* ###Load a saved configuration  
 The "Last configuration used" section shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Manage settings** 
+* ###Manage settings 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo.
 
-* **Start an experiment**  
+* ###Start an experiment  
 Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder)  
 *Check the sections below for detailed information about each modality*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
