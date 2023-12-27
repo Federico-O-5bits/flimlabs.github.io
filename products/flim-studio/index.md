@@ -317,7 +317,7 @@ Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] 
 </div>
 
 The phasor plot allows a graphical representation of the lifetime distribution enabling to separate different lifetime populations within the same sample.  
-In the phasor plot different lifetime values (a cloud of points) are distributed over a semicircle where the “longest” lifetime are on the left side, while the “shortest” ones on the right side of the plot.
+In the phasor plot different lifetime values (a cloud of points) are distributed over a semicircle where the “longest” lifetime are on the left side, while the “shortest” ones on the right side of the plot.  
  If the cloud of points falls precisely on the semicircle, it means that the fluorescence signal can be described by a single exponential decay, while if the cloud falls within the semicircle area, the lifetime is a superposition of different values.
 
 Click on the bar at the left of the phasor plot to select your preferred color map.
@@ -329,8 +329,22 @@ The selected color map will be applied to the cloud of point in the graphic.
     <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="phasor plot and GMM settings">
 </div>
 
+Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
 
-
+###### MANUAL CLUSTER IDENTIFYING
+To manually specify clusters on the phasor plot, click the green '+' button. Your cursor will transform, allowing you to hover over the phasor plot and position the cluster in the chosen region. Multiple clusters can be added to the phasor plot.  
+Clicking on a region and moving the mouse enables you to adjust the cluster's diameter. A second click fixes the cluster in place.   
+You can relocate a cluster by clicking and dragging it to a new position, then clicking again to set it.  
+Below the green '+' button is a table displaying cluster information:  
+* Color: Click on the color box to change the cluster's color.
+* Alpha: Toggle the alpha channel to introduce transparency, aiding in the distinction of overlapping clusters.
+* Radius: Adjust the cluster's radius here.
+* Thick: Change the thickness of the cluster's outline (for visual representation only).
+* g: Modify the cluster's position on the g-axis either by using specific buttons or by dragging the cluster on the phasor plot.
+* s: Alter the cluster's position on the s-axis similarly.
+* τφ (Phase lifetime): This parameter, derived from frequency-domain fluorescence lifetime measurements, is based on the phase shift between modulated excitation light and emitted fluorescence.
+* τm (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
+* Bin icon: Click the bin icon to delete the cluster.
 
 <!-- CONTACT -->
 ## Contacts
