@@ -219,11 +219,27 @@ When the acquisition is completed you can begin the data analysis.
 
 ### DATA ANALYSIS
 
-Once the data acquisition is completed you can start analyzing the experiment data using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
+Once the data acquisition is completed you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
 
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
 </div>
+
+## RECONSTRUCTED IMAGE SECTION [1]
+
+The section consists of four elements, listed from left to right:
+
+1. **Photon Number Filters**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons.
+2. **Color Map Selector**: Clicking on the colored bar opens a selection menu where you can choose your preferred color map. The selected color map will be applied to the adjacent reconstructed image.
+3. **Sample Image**: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
+4. *Toolbar*: From the top, you can use the following features:
+      * **Magnify**: Transforms the mouse cursor into a magnifying glass. Select the magnification value and move the cursor over the reconstructed image to explore it.
+      * **Zoom**: After selecting the zoom value, an enlarged version of the reconstructed image will be displayed.
+      * **Unlock**: By clicking on a point of the reconstructed image, you can view its corresponding representation on the TCSPC HISTOGRAM[2]. To click on another point of the image, unlock the cursor by clicking on 'unlock'.
+      * **Rectangle**: Analyzes a specific part of the image by selecting a rectangular area.
+      * **Circle**: Analyzes a specific part of the image by selecting a circular area.
+      * **Polyline**: [Brief placeholder description here].
+      * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
 
 
 
