@@ -138,20 +138,20 @@ The home section is the first view you'll see when starting FLIM STUDIO.
 Here you can perform several actions:
 
 * ### Load a saved experiment 
-The "Last experiment saved" section shows a list of saved experiments, for each of them you can read the name on the top of the figure and the data at the bottom.
-Click on a saved experiment to load it in FLIM STUDIO
+The "Last experiment saved" section shows a list of saved experiments, for each of them you can read the name on the top of the figure and the data at the bottom.  
+Click on a saved experiment to load it in FLIM STUDIO  
 Click the reload button to refresh the list.
 
 * ### Load a saved configuration  
-The "Last configuration used" section shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
-Click on a saved configuration to load it in FLIM STUDIO
-Click the reload button to refresh the list.
+The "Last configuration used" section shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.  
+Click on a saved configuration to load it in FLIM STUDIO.  
+Click the reload button to refresh the list.  
 
 * ### Manage settings 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo.
 
 * ### Start an experiment  
-Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder)  
+Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder).  
 *Check the sections below for detailed information about each modality*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,11 +160,12 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 <a name="experiment-configuration"></a>
 
 ### Configure an experiment
-The first step to start an experiment is the configuration.
+The first step to start an experiment is the configuration.  
 FLIM STUDIO provides two configuration modalities, **WIZARD MODE** and **ADVANCED MODE**.
 
 ### Wizard mode
-In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process. This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
+In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process.  
+This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
 
 ### Advanced mode 
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
@@ -207,7 +208,7 @@ This table provides a more in-depth explanation of what each field means.
 | Channel (from 1 to 8)| Indicate the number of channels to be utilized for fluorescence sampling and choose the connection method – either USB cable or SMA – for that channel. |
 | Reconstruction mode   | Specify wich spatial coordinates will be provided for the data acquisition. <br>Image reconstruction involves the use of three fundamental spatial coordinates: Pixel clock, Line clock, and Frame clock. Each of these coordinates plays a crucial role in accurately mapping the spatial information necessary for reconstructing a detailed and coherent image from the collected data. <br><br> FLIM STUDIO allows for conducting experiments with excellent results even when not all three spatial coordinates are available. The experiment can be carried out even in the presence of only the line clock and frame clock coordinates, or just the frame clock coordinate alone. |
 | Pixel                 | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Pixel clock. <br> The spatial coordinate Pixel clock dictate the exposure time of each pixel (dwell time). |
-| Line                  | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Line clock. <br> Govern the readout speed of each pixel row (refer to port ref2). Specify whether you will connect to this port via SMA or USB cable. |
+| Line                  | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Line clock. <br> Govern the readout speed of each pixel row (refer to port ref2).<br>Specify whether you will connect to this port via SMA or USB cable. |
 | Frame                 | Specify whether you will connect to this port via SMA or USB cable (refer to port ref3). <br> This port is intended to receive data regarding the spatial coordinate Frame clock. <br> Regulate the acquisition rate of the entire image (frame rate) (refer to port ref3).|
 | Pixel dwell time      | Specify in microseconds the exposure time of each pixel to the scanner. |
 | Pixel size            | Specify the size of each pixel in micrometers. |
