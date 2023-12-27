@@ -349,15 +349,19 @@ Below the green '+' button is a table displaying cluster information:
 #####  AUTOMATIC GMM CLUSTER IDENTIFICATION
 <div align="center">
     <img src="../../assets/flim-studio/automatic-gmm.PNG" alt="automatic GMM settings">
-</div>
+</div>  
+
 The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several Gaussian distributions.  
 In GMM, each Gaussian element is a distinct cluster or subgroup within the overall data.  
 This model is particularly adept at handling scenarios where data points might be associated with more than one cluster, offering a nuanced view of data variability.
 
 FLIM Studio's  machine learning AI identifies clusters on your phasor plot. It assigns distinct, vibrant colors to each cluster for enhanced visual distinction.
 
-To enable automatic GMM cluster detection, click the second green button from the left and set the 'Automatic detection' field to 'True'.  
-Decide whether to use the alpha channel, and then click the 'Run' button to initiate the automatic identification of GMM clusters.
+To enable automatic GMM cluster detection follow these steps:  
+* Click the second green button from the left
+* Set the 'Automatic detection' input field to 'True'
+* Specify whether to use the alpha channel on the 'Alpha channel' input field
+* Click the 'Run' button to initiate the automatic identification of GMM clusters.
 
 
 
@@ -367,7 +371,16 @@ Decide whether to use the alpha channel, and then click the 'Run' button to init
     <img src="../../assets/flim-studio/non-automatic-gmm.PNG" alt="non automatic GMM settings">
 </div>
 
-You can use the GMM 
+Manually specify the number of clusters to be identified to use the potential of GMM without taking advantage of automatic detection via AI.
+To run the non automatic gmm cluster identification follow these steps:
+* Click the second green button from the left
+* Set the 'Automatic detection' input field to 'False'
+* Set the number of cluster to identify
+* Specify whether to use the alpha channel on the 'Alpha channel' input field
+* Click the 'Run' button to initiate the cluster identification process.
+
+
+
 
 <!-- CONTACT -->
 ## Contacts
