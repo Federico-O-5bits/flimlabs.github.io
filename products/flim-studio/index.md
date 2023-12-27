@@ -80,6 +80,9 @@
             </li>
           </ul>
         </li>
+          <li >
+           <a href="#contacts">Contacts</a>
+        </li>
       </ul>
     </li>
   </ol>
@@ -307,6 +310,16 @@ Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] 
     <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="imaging-reconstruction-experiment-image">
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+FLIM LABS: info@flimlabs.com
+
+FLIM LABS website: [FLIM LABS](https://www.flimlabs.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
