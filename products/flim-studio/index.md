@@ -219,7 +219,7 @@ When the acquisition is completed you can begin the data analysis.
 
 ### DATA ANALYSIS
 
-Once the data acquisition is completed you can start analyzing the experiment data using the data visualization tools provided by FLIM STUDIO. (Reconstructed image section [1], TCSPC ISTOGRAMM [2], phasor plot and GMM (AI) [3])
+Once the data acquisition is completed you can start analyzing the experiment data using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
 
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
