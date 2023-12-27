@@ -225,11 +225,11 @@ Once the data acquisition is completed you can start analyzing the experiment re
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
 </div>
 
-## RECONSTRUCTED IMAGE SECTION [1]
+### RECONSTRUCTED IMAGE SECTION [1]
 
 The section consists of four elements, listed from left to right:
 
-1. **Photon Number Filters**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons.
+1. **Photon Number Filter**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons.
 2. **Color Map Selector**: Clicking on the colored bar opens a selection menu where you can choose your preferred color map. The selected color map will be applied to the adjacent reconstructed image.
 3. **Sample Image**: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
 4. **Toolbar**: From the top, you can use the following features:
@@ -240,6 +240,16 @@ The section consists of four elements, listed from left to right:
       * **Circle**: Analyzes a specific part of the image by selecting a circular area.
       * **Polyline**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
+
+### TCSPC ISTOGRAMM [2]      
+In this section a fluorescence intensity decay profile Istogramm is represented.
+The x-axis of the TCSPC histogram represents the time intervals following a laser pulse used to excite the sample. Each interval correlates with a certain delay after the excitation pulse, and it is within these slices of time that the photon counts are recorded.
+On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.
+The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.
+From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
+
+By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.
+Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 
 
 
