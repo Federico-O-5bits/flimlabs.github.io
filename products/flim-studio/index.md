@@ -80,10 +80,10 @@
             </li>
           </ul>
         </li>
-          <li >
-           <a href="#contacts">Contacts</a>
-        </li>
       </ul>
+    </li>
+    <li >
+       <a href="#contacts">Contacts</a>
     </li>
   </ol>
 </details>
