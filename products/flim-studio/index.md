@@ -242,13 +242,13 @@ The section consists of four elements, listed from left to right:
       * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
 
 ### TCSPC ISTOGRAMM [2]      
-In this section a fluorescence intensity decay profile Istogramm is represented.
-The x-axis of the TCSPC histogram represents the time intervals following a laser pulse used to excite the sample. Each interval correlates with a certain delay after the excitation pulse, and it is within these slices of time that the photon counts are recorded.
-On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.
-The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.
+In this section a fluorescence intensity decay profile Istogramm is represented.  
+The x-axis of the TCSPC histogram represents the time intervals following a laser pulse used to excite the sample. Each interval correlates with a certain delay after the excitation pulse, and it is within these slices of time that the photon counts are recorded.  
+On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.  
+The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.  
 From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
 
-By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.
+By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
 Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 
 
