@@ -27,10 +27,10 @@
       <a href="#home-section">Home section</a>
       <ul>
         <li>
-           <a href="#load-a-saved-experiment">Load a saved experiment</a>
+           <a href="#**-load-a-saved-experiment-**">Load a saved experiment</a>
         </li>
          <li>
-           <a href="#load-a-saved-configuration">Load a saved configuration</a>
+           <a href="#**-load-a-saved-configuration-**">Load a saved configuration</a>
         </li>
          <li>
            <a href="#manage-settings">Manage settings</a>
