@@ -302,14 +302,35 @@ The data plotted in the histogram spans across the period of the laser pulse. Th
 From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
 By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
 <div align="center">
-    <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="linear istogram">
 </div>
 
 Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 <div align="center">
-    <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="jagged istogram">
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### PHASOR PLOT [3]
+<div align="center">
+    <img src="../../assets/flim-studio/phasor-plot.PNG" alt="phasor plot">
+</div>
+
+The phasor plot allows a graphical representation of the lifetime distribution enabling to separate different lifetime populations within the same sample.  
+In the phasor plot different lifetime values (a cloud of points) are distributed over a semicircle where the “longest” lifetime are on the left side, while the “shortest” ones on the right side of the plot.
+ If the cloud of points falls precisely on the semicircle, it means that the fluorescence signal can be described by a single exponential decay, while if the cloud falls within the semicircle area, the lifetime is a superposition of different values.
+
+Click on the bar at the left of the phasor plot to select your preferred color map.
+The selected color map will be applied to the cloud of point in the graphic.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### GMM & AI
+<div align="center">
+    <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="phasor plot and GMM settings">
+</div>
+
+
+
 
 <!-- CONTACT -->
 ## Contacts
