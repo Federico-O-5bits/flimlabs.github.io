@@ -25,6 +25,20 @@
     </li>
     <li>
       <a href="#home-section">Home section</a>
+      <ul>
+        <li>
+           <a href="#load-a-saved-experiment">Load a seved experiment</a>
+        </li>
+         <li>
+           <a href="#load-a-saved-configuration">Load a seved configuration</a>
+        </li>
+         <li>
+           <a href="#manage-settings">Manage settings</a>
+        </li>
+         <li>
+           <a href="#start-an-experiment">Start an experiment</a>
+        </li>
+      </ul>
     </li>
     <li>
       <a href="#start-an-experiment">Start an experiment</a>
@@ -130,7 +144,7 @@ The "Last configuration used" section shows a list of the previous configuration
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Manage Settings** 
+* **Manage settings** 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo.
 
 * **Start an experiment**  
