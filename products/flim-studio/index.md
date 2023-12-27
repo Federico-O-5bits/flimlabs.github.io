@@ -220,7 +220,7 @@ This table provides a more in-depth explanation of what each field means.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## IMAGING RECONSTRUCTION EXPERIMENT
-this section deals with more in-depth description of the imaging reconstruction experiment.
+This section deals with more in-depth description of the imaging reconstruction experiment.
 
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
@@ -260,7 +260,7 @@ After completing the [software calibration](#software-calibration), the next ste
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
 Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame" input field.
-Then begin the acquisition process by clicking the start icon, located at the top right of the interface.
+Then begin the acquisition process by clicking the start icon, located at the top right of the interface.  
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the data analysis.
 
@@ -289,6 +289,7 @@ The section consists of four elements, listed from left to right:
       * **Circle**: Analyzes a specific part of the image by selecting a circular area.
       * **Polyline**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
+      <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### TCSPC ISTOGRAMM [2]      
 In this section a fluorescence intensity decay profile Istogramm is represented.  
@@ -305,6 +306,7 @@ Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] 
 <div align="center">
     <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="imaging-reconstruction-experiment-image">
 </div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
