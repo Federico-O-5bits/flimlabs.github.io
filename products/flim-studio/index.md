@@ -256,7 +256,7 @@ After successful calibration, you are ready to proceed with.
 
 ### START THE DATA ACQUISITION
 
-After completing the [software calibration](#software-calibration), the next step is the data acquisition.
+After completing the [software calibration](#software-calibration), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
 Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame" input field.
