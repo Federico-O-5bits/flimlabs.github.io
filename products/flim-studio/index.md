@@ -247,9 +247,16 @@ The x-axis of the TCSPC histogram represents the time intervals following a lase
 On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.  
 The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.  
 From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
-
 By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
+<div align="center">
+    <img src="../../assets/flim-studio/linear-istogramm.png" alt="imaging-reconstruction-experiment-image">
+</div>
+
 Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
+<div align="center">
+    <img src="../../assets/flim-studio/jagged-istogramm.png" alt="imaging-reconstruction-experiment-image">
+</div>
+
 
 
 
