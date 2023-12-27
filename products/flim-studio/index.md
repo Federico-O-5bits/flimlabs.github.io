@@ -32,10 +32,10 @@
       </ul>
     </li>
     <li>
-      <a href="#start-experiment">Start an experiment</a>
+      <a href="#start-an-experiment">Start an experiment</a>
       <ul>
         <li>
-           <a href="#configure-experiment">Configure an experiment</a>      
+           <a href="#configure-an-experiment">Configure an experiment</a>      
         </li>
          <li>
             <a href="#wizard-mode">Wizard mode</a>
@@ -52,13 +52,13 @@
       <a href="#imaging-reconstruction-experiment">Imaging Reconstruction experiment</a>
       <ul>
         <li>
-           <a href="#roi">Region of Interest (ROI)</a>        
+           <a href="#region-of-interest-(roi)">Region of Interest (ROI)</a>        
         </li>
          <li>
             <a href="#software-calibration">Software calibration</a>
         </li>
          <li >
-           <a href="#data-acquisition">Start the data acquisition</a>
+           <a href="#start-the-data-acquisition">Start the data acquisition</a>
         </li>
          <li >
            <a href="#data-analysis">Data analysis</a>          
