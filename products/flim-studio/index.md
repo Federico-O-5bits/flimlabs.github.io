@@ -344,6 +344,8 @@ Below the green '+' button is a table displaying cluster information:
 * s: Alter the cluster's position on the s-axis similarly.
 * τφ (Phase lifetime): This parameter, derived from frequency-domain fluorescence lifetime measurements, is based on the phase shift between modulated excitation light and emitted fluorescence.
 * τm (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
+* m:
+* φ:
 * Bin icon: Click the bin icon to delete the cluster.
 
 #####  AUTOMATIC GMM CLUSTER IDENTIFICATION
@@ -379,6 +381,15 @@ To run the non automatic gmm cluster identification follow these steps:
 * Specify whether to use the alpha channel on the 'Alpha channel' input field
 * Click the 'Run' button to initiate the cluster identification process.
 
+##### SETTINGS
+Click the third green button from the left to open the settings select.
+Here you can:
+* Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
+* Check the Harmonic value: The value is not editable and setted during the experiment configuration.
+
+##### SAVE EXPERIMENT/CONFIGURATION
+Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
+You'll be able to retrieve the savings in the Home section under "Last experiment saved" and "Last configuration used" voices.
 
 
 
