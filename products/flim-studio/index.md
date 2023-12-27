@@ -61,7 +61,7 @@
       <a href="#imaging-reconstruction-experiment">Imaging Reconstruction experiment</a>
       <ul>
         <li>
-           <a href="#region-of-interest-(roi)">Region of Interest (ROI)</a>        
+           <a href="#select-the-region-of-interest-(roi)">Select the Region of Interest (ROI)</a>        
         </li>
          <li>
             <a href="#software-calibration">Software calibration</a>
