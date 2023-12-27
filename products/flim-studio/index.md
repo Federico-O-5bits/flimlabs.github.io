@@ -134,12 +134,12 @@ The home section is the first view you'll see when starting FLIM STUDIO.
 
 Here you can perform several actions:
 
-* **Load a seved experiment**  
+* **Load a saved experiment**  
 The "Last experiment saved" section shows a list of saved experiments, for each of them you can read the name on the top of the figure and the data at the bottom.
 Click on a saved experiment to load it in FLIM STUDIO
 Click the reload button to refresh the list.
 
-* **Load a seved configuration**  
+* **Load a saved configuration**  
 The "Last configuration used" section shows a list of the previous configurations saved, for each configuration you can read the name on the top of the figure and the data at the bottom.
 Click on a saved configuration to load it in FLIM STUDIO
 Click the reload button to refresh the list.
