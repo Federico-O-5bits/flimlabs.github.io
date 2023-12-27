@@ -264,7 +264,7 @@ Once the data acquisition is completed you can start analyzing the experiment re
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
 </div>
 
-### RECONSTRUCTED IMAGE SECTION [1]
+#### RECONSTRUCTED IMAGE SECTION [1]
 
 The section consists of four elements, listed from left to right:
 
@@ -280,7 +280,7 @@ The section consists of four elements, listed from left to right:
       * **Polyline**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
 
-### TCSPC ISTOGRAMM [2]      
+#### TCSPC ISTOGRAMM [2]      
 In this section a fluorescence intensity decay profile Istogramm is represented.  
 The x-axis of the TCSPC histogram represents the time intervals following a laser pulse used to excite the sample. Each interval correlates with a certain delay after the excitation pulse, and it is within these slices of time that the photon counts are recorded.  
 On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.  
