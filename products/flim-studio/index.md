@@ -290,7 +290,7 @@ The section consists of four elements, listed from left to right:
       * **Unlock**: By clicking on a point of the reconstructed image, you can view its corresponding representation on the TCSPC HISTOGRAM[2]. To click on another point of the image, unlock the cursor by clicking on 'unlock'.
       * **Rectangle**: Analyzes a specific part of the image by selecting a rectangular area.
       * **Circle**: Analyzes a specific part of the image by selecting a circular area.
-      * **Polyline**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      * **Polyline**: Analyzes a specific part of the image by using a polyline to select the area.
       * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
       <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -389,7 +389,7 @@ Here you can:
 
 ##### SAVE EXPERIMENT/CONFIGURATION
 Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
-You'll be able to retrieve the savings in the Home section under "Last experiment saved" and "Last configuration used" voices.
+You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
 
 
 
