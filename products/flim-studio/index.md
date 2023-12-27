@@ -249,12 +249,12 @@ The data plotted in the histogram spans across the period of the laser pulse. Th
 From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
 By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
 <div align="center">
-    <img src="../../assets/flim-studio/linear-istogramm.png" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="imaging-reconstruction-experiment-image">
 </div>
 
 Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 <div align="center">
-    <img src="../../assets/flim-studio/jagged-istogramm.png" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="imaging-reconstruction-experiment-image">
 </div>
 
 
