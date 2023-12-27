@@ -331,7 +331,7 @@ The selected color map will be applied to the cloud of point in the graphic.
 
 Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
 
-###### MANUAL CLUSTER IDENTIFYING
+##### MANUAL CLUSTER IDENTIFICATION
 To manually specify clusters on the phasor plot, click the green '+' button. Your cursor will transform, allowing you to hover over the phasor plot and position the cluster in the chosen region. Multiple clusters can be added to the phasor plot.  
 Clicking on a region and moving the mouse enables you to adjust the cluster's diameter. A second click fixes the cluster in place.   
 You can relocate a cluster by clicking and dragging it to a new position, then clicking again to set it.  
@@ -345,6 +345,29 @@ Below the green '+' button is a table displaying cluster information:
 * τφ (Phase lifetime): This parameter, derived from frequency-domain fluorescence lifetime measurements, is based on the phase shift between modulated excitation light and emitted fluorescence.
 * τm (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
 * Bin icon: Click the bin icon to delete the cluster.
+
+#####  AUTOMATIC GMM CLUSTER IDENTIFICATION
+<div align="center">
+    <img src="../../assets/flim-studio/automatic-gmm.PNG" alt="automatic GMM settings">
+</div>
+The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several Gaussian distributions.  
+In GMM, each Gaussian element is a distinct cluster or subgroup within the overall data.  
+This model is particularly adept at handling scenarios where data points might be associated with more than one cluster, offering a nuanced view of data variability.
+
+FLIM Studio's  machine learning AI identifies clusters on your phasor plot. It assigns distinct, vibrant colors to each cluster for enhanced visual distinction.
+
+To enable automatic GMM cluster detection, click the second green button from the left and set the 'Automatic detection' field to 'True'.  
+Decide whether to use the alpha channel, and then click the 'Run' button to initiate the automatic identification of GMM clusters.
+
+
+
+##### NON AUTOMATIC GMM CLUSTER IDENTIFICATION
+
+<div align="center">
+    <img src="../../assets/flim-studio/non-automatic-gmm.PNG" alt="non automatic GMM settings">
+</div>
+
+You can use the GMM 
 
 <!-- CONTACT -->
 ## Contacts
