@@ -107,7 +107,7 @@ Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a
 
 <!-- GETTING STARTED -->
 ## Getting Started
-You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Otherwise check our changelog for different versions at this <a href="https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md" target="_blank">link</a>.
+You can download our software latest version at this <a href="https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe" target="_blank">link</a>. Otherwise check our changelog for different versions at this <a href="https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md" target="_blank">link</a>.
 
 ### Prerequisites
 * Possess a [FLIM LABS acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data
