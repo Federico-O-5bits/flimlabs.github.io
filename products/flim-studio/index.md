@@ -64,7 +64,7 @@
            <a href="#data-analysis">Data analysis</a>          
           <ul>
             <li>
-            <a href="#reconstructed-image-section">RECONSTRUCTED IMAGE SECTION [1]</a>            
+            <a href="#reconstructed-image-section-[1]">RECONSTRUCTED IMAGE SECTION [1]</a>            
             </li>
           </ul>
         </li>
