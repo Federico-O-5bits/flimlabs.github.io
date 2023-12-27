@@ -24,12 +24,7 @@
       </ul>
     </li>
     <li>
-      <a href="#how-to-use">How to use </a>
-      <ul>
-        <li>
-           <a href="#home-section">Home section</a>
-        </li>
-      </ul>
+      <a href="#home-section">Home section</a>
     </li>
     <li>
       <a href="#start-an-experiment">Start an experiment</a>
@@ -114,11 +109,8 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- HOW TO USE -->
-## How to use
-
-  
-### Home section
+<!-- HOME SECTION -->  
+## Home section
 
 The home section is the first view you'll see when starting FLIM STUDIO.
 
