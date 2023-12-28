@@ -94,7 +94,7 @@
             <a href="#settings">SETTINGS</a>            
             </li>
             <li>
-            <a href="#save-experiment-/-configuration">SAVE EXPERIMENT/CONFIGURATION</a>            
+            <a href="#save-experiment/configuration">SAVE EXPERIMENT/CONFIGURATION</a>            
             </li>
           </ul>
         </li>
