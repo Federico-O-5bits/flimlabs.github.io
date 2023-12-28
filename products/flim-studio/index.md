@@ -61,7 +61,7 @@
       <a href="#imaging-reconstruction-experiment">Imaging Reconstruction experiment</a>
       <ul>
         <li>
-           <a href="#select-the-region-of-interest-roi">Select the Region of Interest (ROI)</a>        
+           <a href="#scouting-mode">Scouting mode</a>        
         </li>
          <li>
             <a href="#software-calibration">Software calibration</a>
@@ -256,7 +256,7 @@ This section deals with more in-depth description of the imaging reconstruction 
 
 The imaging reconstruction experiment section provides three operational modes (**REFERENCE**, ***SCOUTING***, ***DATA***), allowing a systematic approach to fine-tune experiments.
 
-### SELECT THE REGION OF INTEREST (ROI)
+### SCOUTING MODE
  The **SCOUTING** mode allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
  You can use the scouting mode before and after the software calibration.
