@@ -186,10 +186,16 @@ The first step to start an experiment is the configuration.
 FLIM STUDIO provides two configuration modalities, **WIZARD MODE** and **ADVANCED MODE**.
 
 ### Wizard mode
+<div align="center">
+    <img src="../../assets/flim-studio/wizard-gif.gif" alt="non automatic GMM settings">
+</div>
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process.  
 This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
 
 ### Advanced mode 
+<div align="center">
+    <img src="../../assets/flim-studio/advanced-gif.gif" alt="non automatic GMM settings">
+</div>
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
