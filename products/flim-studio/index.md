@@ -64,10 +64,10 @@
            <a href="#scouting-mode">Scouting mode</a>        
         </li>
          <li>
-            <a href="#software-calibration">Software calibration</a>
+            <a href="#reference-mode">Reference mode</a>
         </li>
          <li >
-           <a href="#start-the-data-acquisition">Start the data acquisition</a>
+           <a href="#data-mode">Data mode</a>
         </li>
          <li >
            <a href="#data-analysis">Data analysis</a>          
@@ -257,7 +257,7 @@ This section deals with more in-depth description of the imaging reconstruction 
 The imaging reconstruction experiment section provides three operational modes (**REFERENCE**, ***SCOUTING***, ***DATA***), allowing a systematic approach to fine-tune experiments.
 
 ### SCOUTING MODE
- The **SCOUTING** mode allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
+ This feature allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
  You can use the scouting mode before and after the software calibration.
 
@@ -265,12 +265,12 @@ The imaging reconstruction experiment section provides three operational modes (
 
 <a name="software-calibration"></a>
 
-### SOFTWARE CALIBRATION
+### REFERENCE MODE
 
 After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
 (*the scouting mode is optional*).
 
-Use the **REFERENCE** mode to calibrate the software and follow these steps:
+Follow these step to use the **REFERENCE** mode and calibrate the software:
 * Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
 * Navigate to the upper-right corner of the interface and set the decay time in the "Decay time" input field. 
 * In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
@@ -282,7 +282,7 @@ After successful calibration, you are ready to proceed with.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### START THE DATA ACQUISITION
+### DATA MODE
 
 After completing the [software calibration](#software-calibration), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
