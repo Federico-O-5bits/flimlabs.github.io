@@ -286,7 +286,7 @@ Follow these step to use the **REFERENCE** mode and calibrate the software:
 The software will commence data acquisition, utilizing the predefined decay time for self-calibration. Data acquisition will automatically cease upon reaching the designated number of frames.  
 Note that this calibration process is a one-time requirement and is not necessary for future data acquisitions as long as you remain in the same experiment configuration session.
 
-After successful calibration, you are ready to proceed with.
+After successful calibration, you are ready to proceed with the [data acquisition](#data-mode)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -298,7 +298,7 @@ Here is where effectively commence the imaging experiment by acquiring data from
 Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame" input field.
 Then begin the acquisition process by clicking the start icon, located at the top right of the interface.  
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
-When the acquisition is completed you can begin the data analysis.
+When the acquisition is completed you can begin the [data analysis](#data-analysis).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
