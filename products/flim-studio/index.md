@@ -205,7 +205,7 @@ This table outlines the necessary configurations for both Wizard and Advanced mo
 
 | Field name           | Value type         | Wizard mode | Advanced mode | Mandatory | Imaging | Spectroscopy |
 |----------------------|--------------------|:-----------:|:-------------:|:---------:|:-------:|:------------:|
-| Device               | Flim data acquisition card name | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Device               | Flim data acquisition card name <br>(detected automatically) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Type of experiments  | Imaging \| Spectroscopy | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Sync in              | USB \| SMA         | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Sync out             | USB \| SMA         | ✅ | ✅ | ❌ | ✅ | ✅ |
