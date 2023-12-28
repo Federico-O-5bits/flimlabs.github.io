@@ -378,14 +378,14 @@ Below the green '+' button is a table displaying cluster information:
 * **Color**: Click on the color box to change the cluster's color (the selected color will be reflected also on the [sample reconstructed image](#reconstructed-image-section-1)).
 * **Alpha**: Toggle the alpha channel to introduce transparency, aiding in the distinction of overlapping clusters (the activation of the alpha cannel will be reflected on the sample reconstructed image).
 * **Radius**: Adjust the cluster's radius here.
-* Thick: Change the thickness of the cluster's outline (for visual representation only).
-* g: Modify the cluster's position on the g-axis either by using specific buttons or by dragging the cluster on the phasor plot.
-* s: Alter the cluster's position on the s-axis similarly.
-* τφ (Phase lifetime): This parameter, derived from frequency-domain fluorescence lifetime measurements, is based on the phase shift between modulated excitation light and emitted fluorescence.
-* τm (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
-* φ: Represents the phase shift between the excitation light and the emitted fluorescence. It's a measure of how much the emission lags behind the oscillating excitation source in frequency-domain fluorometry. The phase shift is related to the fluorescence lifetime; a larger phase shift generally indicates a longer fluorescence lifetime.
-* m: Stands for the modulation depth or the demodulation factor of the fluorescence signal. In modulated excitation experiments, both the excitation light and the emitted fluorescence are modulated. However, due to the finite lifetime of the excited state, the fluorescence emission will be demodulated relative to the excitation. The degree of this demodulation is related to the lifetime of the fluorescence emission; a more significant reduction in modulation depth indicates a longer fluorescence lifetime.
-* Bin icon: Click the bin icon to delete the cluster.
+* **Thick**: Change the thickness of the cluster's outline (for visual representation only).
+* **g**: Modify the cluster's position on the g-axis either by using specific buttons or by dragging the cluster on the phasor plot.
+* **s**: Alter the cluster's position on the s-axis similarly.
+* **τφ** (Phase lifetime): This parameter, derived from frequency-domain fluorescence lifetime measurements, is based on the phase shift between modulated excitation light and emitted fluorescence.
+* **τm** (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
+* **φ**: Represents the phase shift between the excitation light and the emitted fluorescence. It's a measure of how much the emission lags behind the oscillating excitation source in frequency-domain fluorometry. The phase shift is related to the fluorescence lifetime; a larger phase shift generally indicates a longer fluorescence lifetime.
+* **m**: Stands for the modulation depth or the demodulation factor of the fluorescence signal. In modulated excitation experiments, both the excitation light and the emitted fluorescence are modulated. However, due to the finite lifetime of the excited state, the fluorescence emission will be demodulated relative to the excitation. The degree of this demodulation is related to the lifetime of the fluorescence emission; a more significant reduction in modulation depth indicates a longer fluorescence lifetime.
+* **Bin icon**: Click the bin icon to delete the cluster.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #####  AUTOMATIC GMM CLUSTER IDENTIFICATION
