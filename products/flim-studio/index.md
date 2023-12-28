@@ -60,14 +60,20 @@
     <li>
       <a href="#imaging-reconstruction-experiment">Imaging Reconstruction experiment</a>
       <ul>
+      <li>
+           <a href="#acquisition-mode">Acquisition mode</a>        
+        </li>
         <li>
-           <a href="#scouting-mode">Scouting mode</a>        
+           <a href="#view-mode">View mode</a>        
+        </li>
+        <li>
+           <a href="#scouting-feature">Scouting feature</a>        
         </li>
          <li>
-            <a href="#reference-mode">Reference mode</a>
+            <a href="#reference-feature">Reference feature</a>
         </li>
          <li >
-           <a href="#data-mode">Data mode</a>
+           <a href="#data-feature">Data feature</a>
         </li>
          <li >
            <a href="#data-analysis">Data analysis</a>          
@@ -256,10 +262,18 @@ This section deals with more in-depth description of the imaging reconstruction 
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div><br>
 
-The imaging reconstruction experiment section provides three operational modes (**REFERENCE**, ***SCOUTING***, ***DATA***), allowing a systematic approach to fine-tune experiments.
+The imaging reconstruction experiment section provides two operational modes (**Acquisition mode**, **View mode**) and three different features divided ny tabs (**REFERENCE**, **SCOUTING**, **DATA***), allowing a systematic approach to fine-tune experiments.
 
-### SCOUTING MODE
- This feature allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
+### ACQUISITION MODE
+After configuring the experiment, this mode is activated for acquiring new experimental data.
+You can use the **SCOUTING FEATURE**, **REFERENCE FEATURE**, **DATA FEATURE** to  successfully complete the experiment.
+
+### VIEW MODE
+To activate this mode, click on a saved experiment under the [Load a saved experiment ](#load-a-saved-experiment) voice in the [Home section](#home-section). The Image Reconstruction Experiment View will display all the data from your saved experiment. Here, you can navigate through the **Reference Feature** and **Data Feature** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
+To analyze the data from the saved experiment, refer to the Data Analysis section for guidance on how to proceed.
+
+### SCOUTING FEATURE
+ This feature is available only in the [Acquisition mode](#acquisition-mode) allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
  You can use this feature before and after the software calibration.  
 
@@ -274,10 +288,10 @@ The imaging reconstruction experiment section provides three operational modes (
 
 <a name="software-calibration"></a>
 
-### REFERENCE MODE
+### REFERENCE FEATURE
 
 After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
-(*the scouting mode is optional*).
+(*the scouting feature is optional*).
 
 Follow these step to use the **REFERENCE** mode and calibrate the software:
 * Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
@@ -290,9 +304,11 @@ Note that this calibration process is a one-time requirement and is not necessar
 
 After successful calibration, you are ready to proceed with the [data acquisition](#data-mode)
 
+**When navigating in the Reference Feature tab while in View mode, it is not possible to initiate a new reference process. This mode only permits viewing the data from the last reference process that was run.**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### DATA MODE
+### DATA FEATURE
 
 After completing the [software calibration](#software-calibration), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
@@ -302,11 +318,13 @@ Then begin the acquisition process by clicking the start icon, located at the to
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the [data analysis](#data-analysis).
 
+**When navigating in the Data Feature tab while in View mode, it is not possible to initiate a new data acquisition process. This mode only permits viewing the data from the last data acquisition process that was run.**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### DATA ANALYSIS
 
-Once the data acquisition is completed you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
+After completing data acquisition (Acuisition mode), or upon loading a saved experiment (View mode) you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
