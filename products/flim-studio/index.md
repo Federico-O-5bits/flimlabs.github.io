@@ -79,7 +79,7 @@
             <a href="#tcspc-istogramm-2">TCSPC ISTOGRAMM</a>            
             </li>
             <li>
-            <a href="#gmm-&-ai">GMM & AI</a>            
+            <a href="#gmm-ai">GMM & AI</a>            
             </li>
             <li>
             <a href="#manual-cluster-identification">MANUAL CLUSTER IDENTIFICATION</a>            
