@@ -363,13 +363,14 @@ The selected color map will be applied to the cloud of point in the graphic.
 </div>
 
 Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##### MANUAL CLUSTER IDENTIFICATION
 To manually specify clusters on the phasor plot, click the green '+' button then move your cursor over the phasor plot and place the cluster in the region of your choiche. Multiple clusters can be added to the phasor plot.    
 You can relocate a cluster by clicking its center and dragging it to a new position, then clicking again to set it.  
 Below the green '+' button is a table displaying cluster information:  
 * Color: Click on the color box to change the cluster's color (the selected color will be reflected also on the [sample reconstructed image](#reconstructed-image-section-1)).
-* Alpha: Toggle the alpha channel to introduce transparency, aiding in the distinction of overlapping clusters(the activation of the alpha cannel will be reflected on the sample reconstructed image).
+* Alpha: Toggle the alpha channel to introduce transparency, aiding in the distinction of overlapping clusters (the activation of the alpha cannel will be reflected on the sample reconstructed image).
 * Radius: Adjust the cluster's radius here.
 * Thick: Change the thickness of the cluster's outline (for visual representation only).
 * g: Modify the cluster's position on the g-axis either by using specific buttons or by dragging the cluster on the phasor plot.
@@ -379,11 +380,12 @@ Below the green '+' button is a table displaying cluster information:
 * m:
 * φ:
 * Bin icon: Click the bin icon to delete the cluster.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #####  AUTOMATIC GMM CLUSTER IDENTIFICATION
 <div align="center">
     <img src="../../assets/flim-studio/automatic-gmm.PNG" alt="automatic GMM settings">
-</div>  
+</div><br> 
 
 The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several Gaussian distributions.  
 In GMM, each Gaussian element is a distinct cluster or subgroup within the overall data.  
@@ -392,11 +394,11 @@ This model is particularly adept at handling scenarios where data points might b
 FLIM Studio's  machine learning AI identifies clusters on your phasor plot. It assigns distinct, vibrant colors to each cluster for enhanced visual distinction.
 
 To enable automatic GMM cluster detection follow these steps:  
-* Click the second green button from the left
+* Click the second green circular button from the left
 * Set the 'Automatic detection' input field to 'True'
 * Specify whether to use the alpha channel on the 'Alpha channel' input field
 * Click the 'Run' button to initiate the automatic identification of GMM clusters.
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ##### NON AUTOMATIC GMM CLUSTER IDENTIFICATION
@@ -412,19 +414,19 @@ To run the non automatic gmm cluster identification follow these steps:
 * Set the number of cluster to identify
 * Specify whether to use the alpha channel on the 'Alpha channel' input field
 * Click the 'Run' button to initiate the cluster identification process.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##### SETTINGS
-Click the third green button from the left to open the settings select.
+Click the third green circular button from the left to open the settings select.
 Here you can:
 * Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
 * Check the Harmonic value: The value is not editable and setted during the experiment configuration.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##### SAVE EXPERIMENT/CONFIGURATION
 Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
 You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
-
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTACT -->
 ## Contacts
 
