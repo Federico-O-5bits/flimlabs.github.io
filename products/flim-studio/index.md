@@ -265,13 +265,15 @@ This section deals with more in-depth description of the imaging reconstruction 
 The imaging reconstruction experiment section provides two operational modes ([**ACQUISITION MODE**](#acquisition-mode), [**VIEW MODE**](#view-mode)) and three different features divided by tabs ([**REFERENCE FEATURE**](#reference-feature), [**SCOUTING FEATURE**](#scouting-feature), [**DATA FEATURE**](#data-feature)), allowing a systematic approach to fine-tune experiments.
 
 ### ACQUISITION MODE
-After [configuring the experiment](#configure-an-experiment), this mode is activated for acquiring new experimental data.
-You can use the **SCOUTING FEATURE**, **REFERENCE FEATURE**, **DATA FEATURE** to  successfully complete the experiment.
+After [configuring the experiment](#configure-an-experiment), this mode is activated for acquiring new experimental data.  
+You can use the **SCOUTING FEATURE**, **REFERENCE FEATURE** and **DATA FEATURE** to  successfully complete the experiment.
 
 ### VIEW MODE
 To activate this mode, click on a saved experiment under the [Load a saved experiment](#load-a-saved-experiment) voice in the [Home section](#home-section).  
-The Image Reconstruction Experiment section will display all the data from your saved experiment. Here, you can navigate through the **REFERENCE FEATURE** and **DATA FEATURE** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
+The Image Reconstruction Experiment section will display all the data from your saved experiment.  
+Here, you can navigate through the **REFERENCE FEATURE** and **DATA FEATURE** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
 To analyze the data from the saved experiment, refer to the Data Analysis section for guidance on how to proceed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### SCOUTING FEATURE
  This feature is available only in the [Acquisition mode](#acquisition-mode), it allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
@@ -305,7 +307,7 @@ Follow these step to use the **REFERENCE FEATURE** and calibrate the software:
 The software will commence data acquisition, utilizing the predefined decay time for self-calibration. Data acquisition will automatically cease upon reaching the designated number of frames.  
 Note that this calibration process is a one-time requirement and is not necessary for future data acquisitions as long as you remain in the same experiment configuration session.
 
-After successful calibration, you are ready to proceed with the [data acquisition](#data-mode)
+After successful calibration, you are ready to proceed with the [data acquisition](#data-feature)
 
 **When navigating in the REFERENCE FEATURE tab while in VIEW MODE, it is not possible to initiate a new reference process. This mode only permits viewing the data from the last reference process that was run.**
 
@@ -313,14 +315,14 @@ After successful calibration, you are ready to proceed with the [data acquisitio
 
 ### DATA FEATURE
 
-After completing the [software calibration](#software-calibration), the next step is the data acquisition.  
+After completing the [software calibration](#reference-feature), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
 Follow these step to use the **DATA FEATURE**:
 *VNavigate to the **DATA** tab placed at the upper-left side of the interface.
 *Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame".
 * Begin the acquisition process by clicking the start icon, located at the top right of the interface.  
-  
+
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the [data analysis](#data-analysis).
 
