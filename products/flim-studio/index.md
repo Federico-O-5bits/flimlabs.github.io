@@ -262,22 +262,24 @@ This section deals with more in-depth description of the imaging reconstruction 
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div><br>
 
-The imaging reconstruction experiment section provides two operational modes ([**ACQUISITION MODE**](#acquisition-mode), [**VIEW MODE**](#view-mode)) and three different features divided ny tabs ([**REFERENCE FEATURE**](#reference-feature), [**SCOUTING FEATURE**](#scouting-feature), [**DATA FEATURE**](#data-feature)), allowing a systematic approach to fine-tune experiments.
+The imaging reconstruction experiment section provides two operational modes ([**ACQUISITION MODE**](#acquisition-mode), [**VIEW MODE**](#view-mode)) and three different features divided by tabs ([**REFERENCE FEATURE**](#reference-feature), [**SCOUTING FEATURE**](#scouting-feature), [**DATA FEATURE**](#data-feature)), allowing a systematic approach to fine-tune experiments.
 
 ### ACQUISITION MODE
-After configuring the experiment, this mode is activated for acquiring new experimental data.
+After [configuring the experiment](#configure-an-experiment), this mode is activated for acquiring new experimental data.
 You can use the **SCOUTING FEATURE**, **REFERENCE FEATURE**, **DATA FEATURE** to  successfully complete the experiment.
 
 ### VIEW MODE
-To activate this mode, click on a saved experiment under the [Load a saved experiment](#load-a-saved-experiment) voice in the [Home section](#home-section). The Image Reconstruction Experiment View will display all the data from your saved experiment. Here, you can navigate through the **REFERENCE FEATURE** and **DATA FEATURE** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
+To activate this mode, click on a saved experiment under the [Load a saved experiment](#load-a-saved-experiment) voice in the [Home section](#home-section).  
+The Image Reconstruction Experiment section will display all the data from your saved experiment. Here, you can navigate through the **REFERENCE FEATURE** and **DATA FEATURE** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
 To analyze the data from the saved experiment, refer to the Data Analysis section for guidance on how to proceed.
 
 ### SCOUTING FEATURE
- This feature is available only in the [Acquisition mode](#acquisition-mode) allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
+ This feature is available only in the [Acquisition mode](#acquisition-mode), it allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
  You can use this feature before and after the software calibration.  
 
  Follow these step to use the **SCOUTING FEATURE** and calibrate the software:
+ * Click to the **SCOUTING** tab placed in the upper-left side of the view.
  * Navigate to the upper-right corner of the interface and specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
  * Begin the acquisition process by clicking the start icon, located at the top right of the interface.
 
@@ -293,8 +295,8 @@ To analyze the data from the saved experiment, refer to the Data Analysis sectio
 After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
 (*the scouting feature is optional*).
 
-Follow these step to use the **REFERENCE** mode and calibrate the software:
-* Navigate to the **REFERENCE** tabe placed in the upper-left side of the view.
+Follow these step to use the **REFERENCE FEATURE** and calibrate the software:
+* Click to the **REFERENCE** tab placed in the upper-left side of the view.
 * Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
 * Navigate to the upper-right corner of the interface and set the decay time in the "Decay time" input field. 
 * In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
@@ -314,8 +316,11 @@ After successful calibration, you are ready to proceed with the [data acquisitio
 After completing the [software calibration](#software-calibration), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
-Navigate to the **DATA** tab placed at the upper-left side of the interface and then set the number of frames to be captured (ex. 20) in the "Number of frame" input field placed at the upper-right corner of the view.
-Then begin the acquisition process by clicking the start icon, located at the top right of the interface.  
+Follow these step to use the **DATA FEATURE**:
+*VNavigate to the **DATA** tab placed at the upper-left side of the interface.
+*Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame".
+* Begin the acquisition process by clicking the start icon, located at the top right of the interface.  
+  
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the [data analysis](#data-analysis).
 
