@@ -466,7 +466,7 @@ FLIM LABS: info@flimlabs.com
 
 FLIM LABS website: [FLIM LABS](https://www.flimlabs.com/)
 
-FLIM STUDIO website page: [FLIM LABS](https://www.flimlabs.com/flim-studio-software)
+FLIM STUDIO website page: [FLIM STUDIO](https://www.flimlabs.com/flim-studio-software)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
