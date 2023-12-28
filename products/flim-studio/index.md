@@ -79,28 +79,28 @@
            <a href="#data-analysis">Data analysis</a>          
           <ul>
             <li>
-            <a href="#reconstructed-image-section-1">RECONSTRUCTED IMAGE SECTION</a>            
+            <a href="#reconstructed-image-section-1">Reconstructed image section</a>            
             </li>
              <li>
-            <a href="#tcspc-istogramm-2">TCSPC ISTOGRAMM</a>            
+            <a href="#tcspc-istogramm-2">TCSPC istogramm</a>            
             </li>
             <li>
             <a href="#gmm--ai">GMM & AI</a>            
             </li>
             <li>
-            <a href="#manual-cluster-identification">MANUAL CLUSTER IDENTIFICATION</a>            
+            <a href="#manual-cluster-identification">Manual cluster identification</a>            
             </li>
             <li>
-            <a href="#automatic-gmm-cluster-identification">AUTOMATIC GMM CLUSTER IDENTIFICATION</a>            
+            <a href="#automatic-gmm-cluster-identification">automatic GMM cluster identification</a>            
             </li>
              <li>
-            <a href="#non-automatic-gmm-cluster-identification">NON AUTOMATIC GMM CLUSTER IDENTIFICATION</a>            
+            <a href="#non-automatic-gmm-cluster-identification">non automatic GMM cluster identification </a>            
             </li>
             <li>
-            <a href="#settings">SETTINGS</a>            
+            <a href="#settings">settings</a>            
             </li>
             <li>
-            <a href="#save-experimentconfiguration">SAVE EXPERIMENT/CONFIGURATION</a>            
+            <a href="#save-experimentconfiguration">save experiment/configuration</a>            
             </li>
           </ul>
         </li>
