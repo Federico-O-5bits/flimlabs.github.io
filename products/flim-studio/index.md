@@ -79,7 +79,7 @@
             <a href="#tcspc-istogramm-2">TCSPC ISTOGRAMM</a>            
             </li>
             <li>
-            <a href="#gmm-ai">GMM & AI</a>            
+            <a href="#gmmai">GMM & AI</a>            
             </li>
             <li>
             <a href="#manual-cluster-identification">MANUAL CLUSTER IDENTIFICATION</a>            
@@ -94,7 +94,7 @@
             <a href="#settings">SETTINGS</a>            
             </li>
             <li>
-            <a href="#save-experiment/configuration">SAVE EXPERIMENT/CONFIGURATION</a>            
+            <a href="#save-experimentconfiguration">SAVE EXPERIMENT/CONFIGURATION</a>            
             </li>
           </ul>
         </li>
