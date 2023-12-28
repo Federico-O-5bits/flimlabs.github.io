@@ -91,16 +91,16 @@
             <a href="#manual-cluster-identification">Manual cluster identification</a>            
             </li>
             <li>
-            <a href="#automatic-gmm-cluster-identification">automatic GMM cluster identification</a>            
+            <a href="#automatic-gmm-cluster-identification">Automatic GMM cluster identification</a>            
             </li>
              <li>
-            <a href="#non-automatic-gmm-cluster-identification">non automatic GMM cluster identification </a>            
+            <a href="#non-automatic-gmm-cluster-identification">Non automatic GMM cluster identification </a>            
             </li>
             <li>
-            <a href="#settings">settings</a>            
+            <a href="#settings">Settings</a>            
             </li>
             <li>
-            <a href="#save-experimentconfiguration">save experiment/configuration</a>            
+            <a href="#save-experimentconfiguration">Save experiment/configuration</a>            
             </li>
           </ul>
         </li>
