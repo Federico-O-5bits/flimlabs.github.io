@@ -152,7 +152,7 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 ## Home section
 
 The initial screen you'll encounter upon launching FLIM STUDIO is the home section.
-
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="flim studio home section">
 </div><br>
@@ -186,6 +186,7 @@ The first step to start an experiment is the configuration.
 FLIM STUDIO provides two configuration modalities, **WIZARD MODE** and **ADVANCED MODE**.
 
 ### Wizard mode
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/wizard-gif.gif" alt="non automatic GMM settings">
 </div><br>
@@ -193,6 +194,7 @@ In this mode, a graphical representation of the settings being configured is pro
 This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
 
 ### Advanced mode 
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/advanced-gif.gif" alt="non automatic GMM settings">
 </div><br>
@@ -305,10 +307,10 @@ When the acquisition is completed you can begin the [data analysis](#data-analys
 ### DATA ANALYSIS
 
 Once the data acquisition is completed you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
-
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
-</div>
+</div><br>
 
 #### RECONSTRUCTED IMAGE SECTION [1]
 
@@ -334,14 +336,16 @@ On the y-axis, you will find the number of photon events detected, which effecti
 The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.  
 From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
 By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="linear istogram">
 </div><br>
 
 Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="jagged istogram">
-</div>
+</div><br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### PHASOR PLOT [3]
@@ -359,6 +363,7 @@ The selected color map will be applied to the cloud of point in the graphic.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### GMM & AI
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="phasor plot and GMM settings">
 </div><br>
@@ -384,6 +389,7 @@ Below the green '+' button is a table displaying cluster information:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #####  AUTOMATIC GMM CLUSTER IDENTIFICATION
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/automatic-gmm.PNG" alt="automatic GMM settings">
 </div><br> 
@@ -403,7 +409,7 @@ To enable automatic GMM cluster detection follow these steps:
 
 
 ##### NON AUTOMATIC GMM CLUSTER IDENTIFICATION
-
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/non-automatic-gmm.PNG" alt="non automatic GMM settings">
 </div><br>
