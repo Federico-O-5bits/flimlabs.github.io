@@ -283,7 +283,8 @@ Follow these step to use the **REFERENCE** mode and calibrate the software:
 * In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
 * Begin the acquisition process by clicking the start icon, located at the top right of the interface.
 
-The software will commence data acquisition, utilizing the predefined decay time for self-calibration. Data acquisition will automatically cease upon reaching the designated number of frames. Note that this calibration process is a one-time requirement and is not necessary for future data acquisitions.
+The software will commence data acquisition, utilizing the predefined decay time for self-calibration. Data acquisition will automatically cease upon reaching the designated number of frames.  
+Note that this calibration process is a one-time requirement and is not necessary for future data acquisitions as long as you remain in the same experiment configuration session.
 
 After successful calibration, you are ready to proceed with.
 
