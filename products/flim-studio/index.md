@@ -155,7 +155,7 @@ The initial screen you'll encounter upon launching FLIM STUDIO is the home secti
 
 <div align="center">
     <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="flim studio home section">
-</div>
+</div><br>
 
 Here you can perform several actions:
 
@@ -188,14 +188,14 @@ FLIM STUDIO provides two configuration modalities, **WIZARD MODE** and **ADVANCE
 ### Wizard mode
 <div align="center">
     <img src="../../assets/flim-studio/wizard-gif.gif" alt="non automatic GMM settings">
-</div>
+</div><br>
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process.  
 This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
 
 ### Advanced mode 
 <div align="center">
     <img src="../../assets/flim-studio/advanced-gif.gif" alt="non automatic GMM settings">
-</div>
+</div><br>
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -249,10 +249,10 @@ This table offers a detailed breakdown of the significance of each field.
 
 ## IMAGING RECONSTRUCTION EXPERIMENT
 This section deals with more in-depth description of the imaging reconstruction experiment.
-
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
-</div>
+</div><br>
 
 The imaging reconstruction experiment section provides three operational modes (**REFERENCE**, ***SCOUTING***, ***DATA***), allowing a systematic approach to fine-tune experiments.
 
@@ -336,7 +336,7 @@ From the negative exponential curve of the histogram, you can deduce the fluores
 By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
 <div align="center">
     <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="linear istogram">
-</div>
+</div><br>
 
 Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 <div align="center">
@@ -345,9 +345,10 @@ Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### PHASOR PLOT [3]
+<br>
 <div align="center">
     <img src="../../assets/flim-studio/phasor-plot.PNG" alt="phasor plot">
-</div>
+</div><br>
 
 The phasor plot allows a graphical representation of the lifetime distribution enabling to separate different lifetime populations within the same sample.  
 In the phasor plot different lifetime values (a cloud of points) are distributed over a semicircle where the “longest” lifetime are on the left side, while the “shortest” ones on the right side of the plot.  
@@ -360,7 +361,7 @@ The selected color map will be applied to the cloud of point in the graphic.
 #### GMM & AI
 <div align="center">
     <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="phasor plot and GMM settings">
-</div>
+</div><br>
 
 Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -405,7 +406,7 @@ To enable automatic GMM cluster detection follow these steps:
 
 <div align="center">
     <img src="../../assets/flim-studio/non-automatic-gmm.PNG" alt="non automatic GMM settings">
-</div>
+</div><br>
 
 Manually specify the number of clusters to be identified to use the potential of GMM without taking advantage of automatic detection via AI.
 To run the non automatic gmm cluster identification follow these steps:
@@ -421,12 +422,11 @@ Click the third green circular button from the left to open the settings select.
 Here you can:
 * Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
 * Check the Harmonic value: The value is not editable and setted during the experiment configuration.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##### SAVE EXPERIMENT/CONFIGURATION
 Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
 You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTACT -->
 ## Contacts
 
