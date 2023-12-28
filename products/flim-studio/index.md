@@ -201,7 +201,7 @@ The advanced mode bring a comprehensive range of customization options and provi
 
 ### Experiment settings
 
-This table summarize the settings you will need to configure for both the Wizard and Advanced modes.
+This table outlines the necessary configurations for both Wizard and Advanced modes.
 
 | Field name           | Value type         | Wizard mode | Advanced mode | Mandatory | Imaging | Spectroscopy |
 |----------------------|--------------------|:-----------:|:-------------:|:---------:|:-------:|:------------:|
@@ -225,7 +225,7 @@ This table summarize the settings you will need to configure for both the Wizard
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-This table provides a more in-depth explanation of what each field means. 
+This table offers a detailed breakdown of the significance of each field.
 
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
