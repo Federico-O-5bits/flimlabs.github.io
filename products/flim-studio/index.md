@@ -32,9 +32,9 @@
          <li>
            <a href="#load-a-saved-configuration">Load a saved configuration</a>
         </li>
-         <li>
+         <!-- <li>
            <a href="#manage-settings">Manage settings</a>
-        </li>
+        </li> -->
          <li>
            <a href="#start-an-experiment">Start an experiment</a>
         </li>
@@ -109,7 +109,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a software that aims at simplifying the data acquisition, reconstruction and analysis of fluorescence lifetime imaging experiments. The environment provides a user-friendly interface and intuitive tools that can be used by any user.
+Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a versatile software designed to streamline the process of acquiring, reconstructing, and analyzing data from fluorescence lifetime imaging experiments.
+This platform offers an accessible and straightforward user interface, along with intuitive tools suitable for users of all levels.
 
 
 
@@ -141,7 +142,7 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 * Double click on the FLIM STUDIO installer, the installation process will start.
 * Enter the serial number you have been provided, then click the "Next>" button.
 * Read the license agreement, click the "I Agree" button in order to proceed with the installation process.
-* Chose the installation folder or leave the default value, Then click the "Install" button.
+* Chose the installation folder or leave the default value. Then click the "Install" button.
 * Once the installation is completed click the "Close" button.
 * Now FLIM STUDIO is ready to run on your PC.
 
@@ -150,7 +151,7 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 <!-- HOME SECTION -->  
 ## Home section
 
-The home section is the first view you'll see when starting FLIM STUDIO.
+The initial screen you'll encounter upon launching FLIM STUDIO is the home section.
 
 <div align="center">
     <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="flim studio home section">
@@ -168,8 +169,8 @@ The "Last configuration used" section shows a list of the previous configuration
 Click on a saved configuration to load it in FLIM STUDIO.  
 Click the reload button to refresh the list.  
 
-* ### Manage settings 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo.
+<!-- * ### Manage settings 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo. -->
 
 * ### Start an experiment  
 Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder).  
