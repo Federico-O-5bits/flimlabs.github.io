@@ -259,7 +259,14 @@ The imaging reconstruction experiment section provides three operational modes (
 ### SCOUTING MODE
  This feature allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
- You can use the scouting mode before and after the software calibration.
+ You can use this feature before and after the software calibration.  
+
+ Follow these step to use the **SCOUTING** mode and calibrate the software:
+ * Navigate to the upper-right corner of the interface and specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
+ * Begin the acquisition process by clicking the start icon, located at the top right of the interface.
+
+ The data acquisition will begin and subsequently cease upon reaching the designated number of frames.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
