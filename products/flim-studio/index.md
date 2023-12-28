@@ -375,9 +375,9 @@ Fluorescence lifetime profiles typically consist of various lifetimes stemming f
 To manually specify clusters on the phasor plot, click the green '+' button then move your cursor over the phasor plot and place the cluster in the region of your choiche. Multiple clusters can be added to the phasor plot.    
 You can relocate a cluster by clicking its center and dragging it to a new position, then clicking again to set it.  
 Below the green '+' button is a table displaying cluster information:  
-* Color: Click on the color box to change the cluster's color (the selected color will be reflected also on the [sample reconstructed image](#reconstructed-image-section-1)).
-* Alpha: Toggle the alpha channel to introduce transparency, aiding in the distinction of overlapping clusters (the activation of the alpha cannel will be reflected on the sample reconstructed image).
-* Radius: Adjust the cluster's radius here.
+* **Color**: Click on the color box to change the cluster's color (the selected color will be reflected also on the [sample reconstructed image](#reconstructed-image-section-1)).
+* **Alpha**: Toggle the alpha channel to introduce transparency, aiding in the distinction of overlapping clusters (the activation of the alpha cannel will be reflected on the sample reconstructed image).
+* **Radius**: Adjust the cluster's radius here.
 * Thick: Change the thickness of the cluster's outline (for visual representation only).
 * g: Modify the cluster's position on the g-axis either by using specific buttons or by dragging the cluster on the phasor plot.
 * s: Alter the cluster's position on the s-axis similarly.
