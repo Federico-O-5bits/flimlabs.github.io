@@ -115,7 +115,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Welcome to [FLIM LABS STUDIO](https://www.flimlabs.com/flim-studio-software/), a versatile software designed to streamline the process of acquiring, reconstructing, and analyzing data from fluorescence lifetime imaging experiments.
+Welcome to [FLIM STUDIO](https://www.flimlabs.com/flim-studio-software/), a versatile software designed to streamline the process of acquiring, reconstructing, and analyzing data from fluorescence lifetime imaging experiments.
 This platform offers an accessible and straightforward user interface, along with intuitive tools suitable for users of all levels.
 
 
@@ -465,6 +465,9 @@ You'll be able to retrieve the saves in the Home section under the "Last experim
 FLIM LABS: info@flimlabs.com
 
 FLIM LABS website: [FLIM LABS](https://www.flimlabs.com/)
+
+FLIM STUDIO website page: [FLIM LABS](https://www.flimlabs.com/flim-studio-software)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
