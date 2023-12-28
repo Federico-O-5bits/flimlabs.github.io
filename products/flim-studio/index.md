@@ -78,6 +78,24 @@
              <li>
             <a href="#tcspc-istogramm-2">TCSPC ISTOGRAMM</a>            
             </li>
+            <li>
+            <a href="#gmm-&-ai">GMM & AI</a>            
+            </li>
+            <li>
+            <a href="#manual-cluster-identification">MANUAL CLUSTER IDENTIFICATION</a>            
+            </li>
+            <li>
+            <a href="#automatic-gmm-cluster-identification">AUTOMATIC GMM CLUSTER IDENTIFICATION</a>            
+            </li>
+             <li>
+            <a href="#non-automatic-gmm-cluster-identification">NON AUTOMATIC GMM CLUSTER IDENTIFICATION</a>            
+            </li>
+            <li>
+            <a href="#settings">SETTINGS</a>            
+            </li>
+            <li>
+            <a href="#save-experiment-configuration">SAVE EXPERIMENT/CONFIGURATION</a>            
+            </li>
           </ul>
         </li>
       </ul>
