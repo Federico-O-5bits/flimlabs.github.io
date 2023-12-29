@@ -312,7 +312,7 @@ After completing the [experiment configuration](#experiment-configuration), the 
 
 Follow these step to use the **Reference feature** and calibrate the software:
 * Click to the **Reference tab** placed in the upper-left side of the view.
-* Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
+* Place a sample with a known and monoexponential fluorescence lifetime value under your microscope objective. (e.g. fluorescein in water, fluorescence lifetime: 4.1 ns ).
 * Navigate to the upper-right corner of the interface and set the decay time in the "Decay time" input field. 
 * In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
 * Begin the acquisition process by clicking the start icon, located at the top right of the interface.
