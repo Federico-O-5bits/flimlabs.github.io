@@ -288,8 +288,8 @@ To analyze the data from the saved experiment, refer to the Data Analysis sectio
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Scouting tab
- This feature is available only in the [Acquisition mode](#acquisition-mode), it allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
- During the data acquisition process, images are presented separately, unlike in the **Reference tab** and **Data tab**.
+ This feature is available only in the [Acquisition mode](#acquisition-mode), it allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).  
+ During the data acquisition process, images are presented one by one, in contrast to the **Reference tab** and **Data tab**, where they are displayed in a stacked manner.
 
  You can use this feature before and after the software calibration.  
 
