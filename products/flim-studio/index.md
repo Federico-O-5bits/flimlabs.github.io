@@ -138,7 +138,7 @@ This platform offers an accessible and straightforward user interface, along wit
 You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Otherwise check our changelog for different versions at this [link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
 
 ### Prerequisites
-* Possess a [FLIM LABS data acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data <img src="../../assets/flim-studio/device-connected-canva-cutted.png" alt="connected device serial number id" width="450px" height="450px">
+* Possess a [FLIM LABS data acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data <img src="../../assets/flim-studio/device-connected-canva-cutted.png" alt="connected device serial number id" width="450px" >
 * Windows OS
 
 ### Installation
