@@ -442,7 +442,7 @@ To enable automatic GMM cluster detection follow these steps:
 
 Manually specify the number of clusters to be identified to use the potential of GMM without taking advantage of automatic detection via AI.
 To run the non automatic gmm cluster identification follow these steps:
-* Click the button <img src="../../assets/flim-studio/gmm-button.PNG" width='22px' height='22px' alt="run gmm button">
+* Click the button <img src="../../assets/flim-studio/gmm-button.PNG" width='22px' height='22px' alt="run gmm button"> .
 * Set the 'Automatic detection' input field to 'False'
 * Set the number of cluster to identify
 * Specify whether to use the alpha channel on the 'Alpha channel' input field
@@ -450,7 +450,7 @@ To run the non automatic gmm cluster identification follow these steps:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ##### SETTINGS
-Click the third green circular button from the left to open the settings select.
+Click the button <img src="../../assets/flim-studio/settings-button.PNG" width='22px' height='22px' alt="open settings button"> to open the settings select.
 Here you can:
 * Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
 * Check the Harmonic value: The value is not editable and setted during the experiment configuration.
