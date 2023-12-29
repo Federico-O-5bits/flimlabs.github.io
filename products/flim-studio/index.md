@@ -53,6 +53,9 @@
              <a href="#advanced-mode">Advanced mode</a>
          </li>
          <li>
+             <a href="#from-local-folder">From local folder</a>
+         </li>
+         <li>
             <a href="#experiment-settings">Experiment settings</a>
          </li>
       </ul>
