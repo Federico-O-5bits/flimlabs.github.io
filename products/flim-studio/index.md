@@ -202,6 +202,7 @@ FLIM STUDIO provides three configuration modalities, **Wizard mode**, **Advanced
 </div><br>
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process.  
 This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Advanced mode 
 <br>
@@ -213,6 +214,7 @@ The advanced mode bring a comprehensive range of customization options and provi
 
 ### From local folder  
 In this mode, you have the capability to upload pre-configured files for immediate use. This facilitates the sharing of specific configurations with others or across different devices, enabling experiments on various devices under identical settings.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Experiment settings
 <!-- 
