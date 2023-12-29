@@ -183,7 +183,7 @@ Click the reload button to refresh the list.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo. -->
 
 * ### Start an experiment  
-Click the "Start" button to begin an experiment, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder).  
+Click the "Start" button to begin an experiment configuration, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder).  
 *Check the sections below for detailed information about each modality*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,8 +192,8 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 <a name="experiment-configuration"></a>
 
 ### Configure an experiment
-The first step to start an experiment is the configuration.  
-FLIM STUDIO provides two configuration modalities, **Wizard mode** and **Advanced mode**.
+The initial step in data acquisition involves beginning the configuration of the software for collecting data.
+FLIM STUDIO provides three configuration modalities, **Wizard mode**, **Advanced mode** and **From local folder**.
 
 ### Wizard mode
 <br>
@@ -209,7 +209,10 @@ This allows the user to benefit from a guided and simplified experience, optimiz
     <img src="../../assets/flim-studio/advanced-gif.gif" alt="non automatic GMM settings">
 </div><br>
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
+### From local folder  
+In this mode, you have the capability to upload pre-configured files for immediate use. This facilitates the sharing of specific configurations with others or across different devices, enabling experiments on various devices under identical settings.
 
 ### Experiment settings
 <!-- 
