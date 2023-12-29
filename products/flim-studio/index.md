@@ -427,7 +427,7 @@ This model is particularly adept at handling scenarios where data points might b
 FLIM Studio's  machine learning AI identifies clusters on your phasor plot. It assigns distinct, vibrant colors to each cluster for enhanced visual distinction.
 
 To enable automatic GMM cluster detection follow these steps:  
-* Click the second green circular button from the left
+* Click the button<img src="../../assets/flim-studio/gmm-button.PNG" width='22px' height='22px' alt="run gmm button">from the left
 * Set the 'Automatic detection' input field to 'True'
 * Specify whether to use the alpha channel on the 'Alpha channel' input field
 * Click the 'Run' button to initiate the automatic identification of GMM clusters.
