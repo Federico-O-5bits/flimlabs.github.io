@@ -411,7 +411,7 @@ Below the button <img src="../../assets/flim-studio/button-add.PNG" width='22px'
 * **τm** (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
 * **φ**: Represents the phase shift between the excitation light and the emitted fluorescence. It's a measure of how much the emission lags behind the oscillating excitation source in frequency-domain fluorometry. The phase shift is related to the fluorescence lifetime; a larger phase shift generally indicates a longer fluorescence lifetime.
 * **m**: Stands for the modulation depth or the demodulation factor of the fluorescence signal. In modulated excitation experiments, both the excitation light and the emitted fluorescence are modulated. However, due to the finite lifetime of the excited state, the fluorescence emission will be demodulated relative to the excitation. The degree of this demodulation is related to the lifetime of the fluorescence emission; a more significant reduction in modulation depth indicates a longer fluorescence lifetime.
-* **Bin icon**: Click the icon  <img src="../../assets/flim-studio/bin-icon-.PNG" width='22px' height='22px' alt="delete cluster icon"> to delete the cluster. 
+* **Bin icon**: Click the icon  <img src="../../assets/flim-studio/bin-icon.PNG" width='22px' height='22px' alt="delete cluster icon"> to delete the cluster. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #####  AUTOMATIC GMM CLUSTER IDENTIFICATION
