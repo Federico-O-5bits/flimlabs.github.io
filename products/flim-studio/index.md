@@ -142,7 +142,7 @@ You can download our software latest version at this [link](https://www.flimlabs
 
 <p align="center"><img src="../../assets/flim-studio/device-connected-canva-cutted.png" alt="connected device serial number id" height="350px" ></p>  
 
-  Verify whether the software detects or recognizes the card, and ensure that it returns the card's serial number.  
+Verify whether the software detects or recognizes the card, and ensure that it returns the card's serial number.  
 * Windows OS
 
 ### Installation
