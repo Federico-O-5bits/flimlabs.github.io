@@ -192,7 +192,7 @@ Click the "Start" button to begin an experiment configuration, the menu will req
 <a name="experiment-configuration"></a>
 
 ### Configure an experiment
-The initial step in data acquisition involves beginning the configuration of the software for collecting data.
+The initial step in data acquisition involves beginning the configuration of the software for collecting data.  
 FLIM STUDIO provides three configuration modalities, **Wizard mode**, **Advanced mode** and **From local folder**.
 
 ### Wizard mode
