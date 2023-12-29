@@ -140,7 +140,8 @@ You can download our software latest version at this [link](https://www.flimlabs
 ### Prerequisites
 * Possess a [FLIM LABS data acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data  
 
-<img align="center" src="../../assets/flim-studio/device-connected-canva-cutted.png" alt="connected device serial number id" height="350px" >
+<p align="center"><img src="../../assets/flim-studio/device-connected-canva-cutted.png" alt="connected device serial number id" height="350px" ></p>
+
 * Windows OS
 
 ### Installation
