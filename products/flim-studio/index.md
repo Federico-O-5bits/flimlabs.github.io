@@ -82,7 +82,7 @@
             <a href="#reconstructed-image-section-1">Reconstructed image section</a>            
             </li>
              <li>
-            <a href="#tcspc-istogramm-2">TCSPC istogramm</a>            
+            <a href="#tcspc-histogramm-2">TCSPC histogramm</a>            
             </li>
             <li>
             <a href="#gmm--ai">GMM & AI</a>            
@@ -189,7 +189,7 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 
 ### Configure an experiment
 The first step to start an experiment is the configuration.  
-FLIM STUDIO provides two configuration modalities, **WIZARD MODE** and **ADVANCED MODE**.
+FLIM STUDIO provides two configuration modalities, **wizard mode** and **advanced mode**.
 
 ### Wizard mode
 <br>
@@ -208,7 +208,7 @@ The advanced mode bring a comprehensive range of customization options and provi
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Experiment settings
-
+<!-- 
 This table outlines the necessary configurations for both Wizard and Advanced modes.
 
 | Field name           | Value type         | Wizard mode | Advanced mode | Mandatory | Imaging | Spectroscopy |
@@ -230,14 +230,14 @@ This table outlines the necessary configurations for both Wizard and Advanced mo
 | Offset left/right/top/bottom     | pixels (px)        | ✅ | ✅ | ❌ | ✅ | ✅ |
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 This table offers a detailed breakdown of the significance of each field.
 
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
-| Device              | FLIM STUDIO require a FLIM DATA ACQUISITION CARD to connect in order to execute the experiment, select the DATA ACQUISITION CARD connected to your pc |
+| Device              | FLIM STUDIO require a Flim data acquisition card to connect in order to execute the experiment, select the data acquisition card connected to your pc |
 | Type of experiments | Choose the type of experiment to perform: <br><br> **Imaging**: Image reconstruction transforms raw data into visual representations. It uses a scanning system, including mirrors and a lens, to precisely move a laser beam over a sample, pixel by pixel. Alternatively, a motorized stage can move the sample instead. <br>This precise control is crucial for collecting accurate spatial information. <br><br> **Spectroscopy**: Fluorescence Correlation Spectroscopy (FCS) studies molecular dynamics by analyzing fluorescence fluctuations. It observes fluorescent molecules diffusing in and out of a specific volume, identifying individual molecular properties. <br>The technique involves statistically analyzing time-dependent intensity F(t) to understand the amplitude and frequency of these fluctuations. FCS calculates the correlation between F(t) and F(t+τ) over various delay times τ, yielding an autocorrelation function G(τ) that reveals details about the fluorescent molecules.                                                      |
 | Sync in              | The Sync In port is responsible for accepting the input signal from the laser. Specify whether you will use a USB cable or SMA to connect to the Sync In port. |
 | Sync out             | The Sync out port is responsible for activating and modulating a laser source. Specify whether you will use a USB cable or SMA to connect to the Sync out port. |
@@ -255,33 +255,33 @@ This table offers a detailed breakdown of the significance of each field.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## IMAGING RECONSTRUCTION EXPERIMENT
+## Imaging reconstruction experiment
 This section deals with more in-depth description of the imaging reconstruction experiment.
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div><br>
 
-The imaging reconstruction experiment section provides two operational modes ([**ACQUISITION MODE**](#acquisition-mode), [**VIEW MODE**](#view-mode)) and three different features divided by tabs ([**REFERENCE FEATURE**](#reference-feature), [**SCOUTING FEATURE**](#scouting-feature), [**DATA FEATURE**](#data-feature)), allowing a systematic approach to fine-tune experiments.
+The imaging reconstruction experiment section provides two operational modes ([**Acquisition mode**](#acquisition-mode), [**View mode**](#view-mode)) and three different features divided by tabs ([**Reference feature**](#reference-feature), [**Scouting feature**](#scouting-feature), [**Data feature**](#data-feature)), allowing a systematic approach to fine-tune experiments.
 
-### ACQUISITION MODE
+### Acquisition mode
 After [configuring the experiment](#configure-an-experiment), this mode is activated for acquiring new experimental data.  
-You can use the **SCOUTING FEATURE**, **REFERENCE FEATURE** and **DATA FEATURE** to  successfully complete the experiment.
+You can use the **Scouting feature**, **Reference feature** and **Data feature** to  successfully complete the experiment.
 
-### VIEW MODE
+### View mode
 To activate this mode, click on a saved experiment under the [Load a saved experiment](#load-a-saved-experiment) voice in the [Home section](#home-section).  
-The Image Reconstruction Experiment section will display all the data from your saved experiment.  
-Here, you can navigate through the **REFERENCE FEATURE** and **DATA FEATURE** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
+The image reconstruction experiment section will display all the data from your saved experiment.  
+Here, you can navigate through the **Reference feature** and **Data feature** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
 To analyze the data from the saved experiment, refer to the Data Analysis section for guidance on how to proceed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### SCOUTING FEATURE
+### Scouting feature
  This feature is available only in the [Acquisition mode](#acquisition-mode), it allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
 
  You can use this feature before and after the software calibration.  
 
- Follow these step to use the **SCOUTING FEATURE** and calibrate the software:
- * Click to the **SCOUTING** tab placed in the upper-left side of the view.
+ Follow these step to use the **Scouting feature** and calibrate the software:
+ * Click to the **Scouting** tab placed in the upper-left side of the view.
  * Navigate to the upper-right corner of the interface and specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
  * Begin the acquisition process by clicking the start icon, located at the top right of the interface.
 
@@ -292,13 +292,13 @@ To analyze the data from the saved experiment, refer to the Data Analysis sectio
 
 <a name="software-calibration"></a>
 
-### REFERENCE FEATURE
+### Reference feature
 
 After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
 (*the scouting feature is optional*).
 
-Follow these step to use the **REFERENCE FEATURE** and calibrate the software:
-* Click to the **REFERENCE** tab placed in the upper-left side of the view.
+Follow these step to use the **Reference feature** and calibrate the software:
+* Click to the **Reference** tab placed in the upper-left side of the view.
 * Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
 * Navigate to the upper-right corner of the interface and set the decay time in the "Decay time" input field. 
 * In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
@@ -309,36 +309,36 @@ Note that this calibration process is a one-time requirement and is not necessar
 
 After successful calibration, you are ready to proceed with the [data acquisition](#data-feature)
 
-**When navigating in the REFERENCE FEATURE tab while in VIEW MODE, it is not possible to initiate a new reference process. This mode only permits viewing the data from the last reference process that was run.**
+**When navigating in the Reference feature tab while in View mode, it is not possible to initiate a new reference process. This mode only permits viewing the data from the last reference process that was run.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### DATA FEATURE
+### Data feature
 
 After completing the [software calibration](#reference-feature), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
-Follow these step to use the **DATA FEATURE**:
-*VNavigate to the **DATA** tab placed at the upper-left side of the interface.
+Follow these step to use the **Data feature**:
+*VNavigate to the **Data** tab placed at the upper-left side of the interface.
 *Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame".
 * Begin the acquisition process by clicking the start icon, located at the top right of the interface.  
 
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the [data analysis](#data-analysis).
 
-**When navigating in the DATA FEATURE tab while in View mode, it is not possible to initiate a new data acquisition process. This mode only permits viewing the data from the last data acquisition process that was run.**
+**When navigating in the Data feature tab while in View mode, it is not possible to initiate a new data acquisition process. This mode only permits viewing the data from the last data acquisition process that was run.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### DATA ANALYSIS
+### Data analysis
 
-After completing data acquisition (Acuisition mode), or upon loading a saved experiment (View mode) you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC ISTOGRAMM [2]**, **Phasor plot and GMM (AI) [3]**)
+After completing data acquisition (Acuisition mode), or upon loading a saved experiment (View mode) you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC histogramm [2]**, **Phasor plot and GMM (AI) [3]**)
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
 </div><br>
 
-#### RECONSTRUCTED IMAGE SECTION [1]
+#### Reconstructed image section [1]
 
 The section consists of four elements, listed from left to right:
 
@@ -355,19 +355,19 @@ The section consists of four elements, listed from left to right:
       * **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
       <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### TCSPC ISTOGRAMM [2]      
-In this section a fluorescence intensity decay profile Istogramm is represented.  
+#### TCSPC histogramm [2]      
+In this section a fluorescence intensity decay profile histogramm is represented.  
 The x-axis of the TCSPC histogram represents the time intervals following a laser pulse used to excite the sample. Each interval correlates with a certain delay after the excitation pulse, and it is within these slices of time that the photon counts are recorded.  
 On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.  
 The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.  
 From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample. 
-By default the Istogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
+By default the histogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="linear istogram">
 </div><br>
 
-Otherwise moving the cursor over a specific point of the RECONSTRUCTED IMAGE[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
+Otherwise moving the cursor over a specific point of the Reconstructed image[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="jagged istogram">
@@ -394,10 +394,10 @@ The selected color map will be applied to the cloud of point in the graphic.
     <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="phasor plot and GMM settings">
 </div><br>
 
-Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
+Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of aussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##### MANUAL CLUSTER IDENTIFICATION
+##### Manual cluster identification
 To manually specify clusters on the phasor plot, click the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> then move your cursor over the phasor plot and place the cluster in the region of your choiche. Multiple clusters can be added to the phasor plot.    
 You can relocate a cluster by clicking its center and dragging it to a new position, then clicking again to set it.  
 Below the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> is a table displaying cluster information:  
@@ -414,14 +414,14 @@ Below the button <img src="../../assets/flim-studio/button-add.PNG" width='22px'
 * **Bin icon**: Click the icon<img src="../../assets/flim-studio/binIcon.PNG" width='22px' height='22px' alt="delete cluster icon">to delete the cluster. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#####  AUTOMATIC GMM CLUSTER IDENTIFICATION
+##### Automatic GMM cluster identification
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/automatic-gmm.PNG" alt="automatic GMM settings">
 </div><br> 
 
 The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several Gaussian distributions.  
-In GMM, each Gaussian element is a distinct cluster or subgroup within the overall data.  
+In GMM, each gaussian element is a distinct cluster or subgroup within the overall data.  
 This model is particularly adept at handling scenarios where data points might be associated with more than one cluster, offering a nuanced view of data variability.
 
 FLIM Studio's  machine learning AI identifies clusters on your phasor plot. It assigns distinct, vibrant colors to each cluster for enhanced visual distinction.
@@ -434,7 +434,7 @@ To enable automatic GMM cluster detection follow these steps:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-##### NON AUTOMATIC GMM CLUSTER IDENTIFICATION
+##### Non atomatic GMM cluster identification
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/non-automatic-gmm.PNG" alt="non automatic GMM settings">
@@ -449,13 +449,13 @@ To run the non automatic gmm cluster identification follow these steps:
 * Click the 'Run' button to initiate the cluster identification process.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##### SETTINGS
+##### Settings
 Click the button <img src="../../assets/flim-studio/settings-button.PNG" width='22px' height='22px' alt="open settings button"> to open the settings select.
 Here you can:
 * Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
 * Check the Harmonic value: The value is not editable and setted during the experiment configuration.
 
-##### SAVE EXPERIMENT/CONFIGURATION
+##### Save experiment/configuration
 Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
 You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
 
