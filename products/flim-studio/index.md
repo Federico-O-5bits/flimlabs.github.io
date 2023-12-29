@@ -123,8 +123,8 @@ This platform offers an accessible and straightforward user interface, along wit
 ### Key features
 
 * Real time imaging and fluorescence decay histogram data reconstruction
-* Real time FLIM phasor-plot analysis (FLIM Phasors:<span text-decoration="none" class="no-decoration">
-  [📖](#phasor-plot)
+* Real time FLIM phasor-plot analysis (FLIM Phasors:<a href="#phasor-plot" text-decoration="none" class="no-decoration">📖</a>
+  [📖]()
 </span>, [🔗](https://www.flimlabs.com/flim-phasors/))
 * AI-driven phasor-plot analysis techniques (GMM:[📖](#gmm--ai), [🔗](https://www.flimlabs.com/flim-gmm/))
 * Double software configuration mode (Wizard: [📖](#wizard-mode), [🔗](https://www.flimlabs.com/flim-studio-software/); Advanced:[📖](#advanced-mode), [🔗](https://www.flimlabs.com/flim-studio-software/))
