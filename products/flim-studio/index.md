@@ -442,7 +442,7 @@ To enable automatic GMM cluster detection follow these steps:
 
 Manually specify the number of clusters to be identified to use the potential of GMM without taking advantage of automatic detection via AI.
 To run the non automatic gmm cluster identification follow these steps:
-* Click the button <img src="../../assets/flim-studio/gmm-button.PNG" width='22px' height='22px' alt="run gmm button"> .
+* Click the button <img src="../../assets/flim-studio/gmm-button.PNG" width='22px' height='22px' alt="run gmm button">
 * Set the 'Automatic detection' input field to 'False'
 * Set the number of cluster to identify
 * Specify whether to use the alpha channel on the 'Alpha channel' input field
