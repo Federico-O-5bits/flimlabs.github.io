@@ -119,12 +119,19 @@ Welcome to [FLIM STUDIO](https://www.flimlabs.com/flim-studio-software/), a vers
 This platform offers an accessible and straightforward user interface, along with intuitive tools suitable for users of all levels.
 
 
+<style>
+  .no-decoration a {
+    text-decoration: none;
+  }
+</style>
 
 
 ### Key features
 
 * Real time imaging and fluorescence decay histogram data reconstruction
-* Real time FLIM phasor-plot analysis (FLIM Phasors:[📖](#phasor-plot), [🔗](https://www.flimlabs.com/flim-phasors/))
+* Real time FLIM phasor-plot analysis (FLIM Phasors:<span class="no-decoration">
+  [📖](#phasor-plot)
+</span>, [🔗](https://www.flimlabs.com/flim-phasors/))
 * AI-driven phasor-plot analysis techniques (GMM:[📖](#gmm--ai), [🔗](https://www.flimlabs.com/flim-gmm/))
 * Double software configuration mode (Wizard: [📖](#wizard-mode), [🔗](https://www.flimlabs.com/flim-studio-software/); Advanced:[📖](#advanced-mode), [🔗](https://www.flimlabs.com/flim-studio-software/))
 * Software calibration guided process (Scouting: [📖](#scouting-feature), [🔗](https://www.flimlabs.com/flim-studio-software/); Reference: [📖](#reference-feature), [🔗](https://www.flimlabs.com/flim-studio-software/); Data: [📖](#data-feature), [🔗](https://www.flimlabs.com/flim-studio-software/))
