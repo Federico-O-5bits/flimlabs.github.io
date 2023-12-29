@@ -345,10 +345,10 @@ When the acquisition is completed you can begin the [data analysis](#data-analys
 
 ### Data analysis
 
-After completing data acquisition (Acuisition mode), or upon loading a saved experiment (View mode) you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC histogramm [2]**, **Phasor plot and GMM (AI) [3]**)
+After completing data acquisition (Acquisition mode), or upon loading a saved experiment (View mode) you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC histogramm [2]**, **Phasor plot and GMM (AI) [3]**)
 <br>
 <div align="center">
-    <img src="../../assets/flim-studio/imaging-experiment-2-edited.png" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/imaging-experiment-2-edited-cutted.png" alt="imaging-reconstruction-experiment-image">
 </div><br>
 
 #### Reconstructed image section [1]
