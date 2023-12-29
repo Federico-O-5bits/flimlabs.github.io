@@ -274,26 +274,27 @@ This section deals with more in-depth description of the imaging reconstruction 
     <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-reconstruction-experiment-image">
 </div><br>
 
-The imaging reconstruction experiment section provides two operational modes ([**Acquisition mode**](#acquisition-mode), [**View mode**](#view-mode)) and three different features divided by tabs ([**Reference feature**](#reference-feature), [**Scouting feature**](#scouting-feature), [**Data feature**](#data-feature)), allowing a systematic approach to fine-tune experiments.
+The imaging reconstruction experiment section provides two operational modes ([**Acquisition mode**](#acquisition-mode), [**View mode**](#view-mode)) and three different features divided by tabs ([**Reference tab**](#reference-tab), [**Scouting tab**](#scouting-feature), [**Data tab**](#data-tab)), allowing a systematic approach to fine-tune experiments.
 
 ### Acquisition mode
 After [configuring the experiment](#configure-an-experiment), this mode is activated for acquiring new experimental data.  
-You can use the **Scouting feature**, **Reference feature** and **Data feature** to  successfully complete the experiment.
+You can use the **Scouting tab**, **Reference tab** and **Data tab** to  successfully complete the experiment.
 
 ### View mode
 To activate this mode, click on a saved experiment under the [Load a saved experiment](#load-a-saved-experiment) voice in the [Home section](#home-section).  
 The image reconstruction experiment section will display all the data from your saved experiment.  
-Here, you can navigate through the **Reference feature** and **Data feature** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
+Here, you can navigate through the **Reference tab** and **Data tab** tabs to view the saved data. However, acquiring new data is not possible in this mode.  
 To analyze the data from the saved experiment, refer to the Data Analysis section for guidance on how to proceed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Scouting feature
+### Scouting tab
  This feature is available only in the [Acquisition mode](#acquisition-mode), it allows you to explore your sample by acquiring images, enabling you to navigate through it to find your region of interest (ROI).
+ During the data acquisition process, images are presented separately, unlike in the **Reference tab** and **Data tab**.
 
  You can use this feature before and after the software calibration.  
 
  Follow these step to use the **Scouting feature** and calibrate the software:
- * Click to the **Scouting** tab placed in the upper-left side of the view.
+ * Click to the **Scouting tab** placed in the upper-left side of the view.
  * Navigate to the upper-right corner of the interface and specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
  * Begin the acquisition process by clicking the start icon, located at the top right of the interface.
 
@@ -304,13 +305,13 @@ To analyze the data from the saved experiment, refer to the Data Analysis sectio
 
 <a name="software-calibration"></a>
 
-### Reference feature
+### Reference tab
 
 After completing the [experiment configuration](#experiment-configuration), the next step is the software calibration
 (*the scouting feature is optional*).
 
 Follow these step to use the **Reference feature** and calibrate the software:
-* Click to the **Reference** tab placed in the upper-left side of the view.
+* Click to the **Reference tab** placed in the upper-left side of the view.
 * Place a sample with a known fluorescence lifetime on your microscope.  (ex. fluorescein, decay time: 3.6ms)
 * Navigate to the upper-right corner of the interface and set the decay time in the "Decay time" input field. 
 * In the same upper-right section, specify the number of frames to be captured (ex. 10) in the "Number of frame" input field.
@@ -321,24 +322,24 @@ Note that this calibration process is a one-time requirement and is not necessar
 
 After successful calibration, you are ready to proceed with the [data acquisition](#data-feature)
 
-**When navigating in the Reference feature tab while in View mode, it is not possible to initiate a new reference process. This mode only permits viewing the data from the last reference process that was run.**
+**When navigating in the Reference tab while in View mode, it is not possible to initiate a new reference process. This mode only permits viewing the data from the last reference process that was run.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Data feature
+### Data tab
 
 After completing the [software calibration](#reference-feature), the next step is the data acquisition.  
 Here is where effectively commence the imaging experiment by acquiring data from your sample (*replace the calibration phase sample with the sample that you want to analyze*).  
 
 Follow these step to use the **Data feature**:
-*VNavigate to the **Data** tab placed at the upper-left side of the interface.
+*VNavigate to the **Data tab** placed at the upper-left side of the interface.
 *Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame".
 * Begin the acquisition process by clicking the start icon, located at the top right of the interface.  
 
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the [data analysis](#data-analysis).
 
-**When navigating in the Data feature tab while in View mode, it is not possible to initiate a new data acquisition process. This mode only permits viewing the data from the last data acquisition process that was run.**
+**When navigating in the Data tab while in View mode, it is not possible to initiate a new data acquisition process. This mode only permits viewing the data from the last data acquisition process that was run.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
