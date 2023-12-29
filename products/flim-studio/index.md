@@ -124,7 +124,7 @@ This platform offers an accessible and straightforward user interface, along wit
 ### Key features
 
 * Real time imaging and fluorescence decay histogram data reconstruction
-* Real time FLIM phasor-plot analysis (FLIM PHASORS)
+* Real time FLIM phasor-plot analysis (FLIM Phasors)
 * AI-driven phasor-plot analysis techniques (GMM)
 * Double software configuration mode (Wizard, Advanced)
 * Software calibration guided process (Scouting, Refrence, Data)
@@ -138,7 +138,7 @@ This platform offers an accessible and straightforward user interface, along wit
 You can download our software latest version at this [link](https://www.flimlabs.com/setup/flimlabsstudio-installer-1.0.b6.exe). Otherwise check our changelog for different versions at this [link](https://github.com/Federico-O-5bits/flimlabs.github.io/blob/main/products/flim-studio/changelog.md).
 
 ### Prerequisites
-* Possess a [FLIM LABS acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data
+* Possess a [FLIM LABS data acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data
 * Windows OS
 
 ### Installation
@@ -189,7 +189,7 @@ Click the "Start" button to begin an experiment, the menu will require you to se
 
 ### Configure an experiment
 The first step to start an experiment is the configuration.  
-FLIM STUDIO provides two configuration modalities, **wizard mode** and **advanced mode**.
+FLIM STUDIO provides two configuration modalities, **Wizard mode** and **Advanced mode**.
 
 ### Wizard mode
 <br>
@@ -237,7 +237,7 @@ This table offers a detailed breakdown of the significance of each field.
 
 | Field name          | Explanation                                                                                   |
 |---------------------|-----------------------------------------------------------------------------------------------|
-| Device              | FLIM STUDIO require a Flim data acquisition card to connect in order to execute the experiment, select the data acquisition card connected to your pc |
+| Device              | FLIM STUDIO require a FLIM data acquisition card to connect in order to execute the experiment, select the data acquisition card connected to your pc |
 | Type of experiments | Choose the type of experiment to perform: <br><br> **Imaging**: Image reconstruction transforms raw data into visual representations. It uses a scanning system, including mirrors and a lens, to precisely move a laser beam over a sample, pixel by pixel. Alternatively, a motorized stage can move the sample instead. <br>This precise control is crucial for collecting accurate spatial information. <br><br> **Spectroscopy**: Fluorescence Correlation Spectroscopy (FCS) studies molecular dynamics by analyzing fluorescence fluctuations. It observes fluorescent molecules diffusing in and out of a specific volume, identifying individual molecular properties. <br>The technique involves statistically analyzing time-dependent intensity F(t) to understand the amplitude and frequency of these fluctuations. FCS calculates the correlation between F(t) and F(t+τ) over various delay times τ, yielding an autocorrelation function G(τ) that reveals details about the fluorescent molecules.                                                      |
 | Sync in              | The Sync In port is responsible for accepting the input signal from the laser. Specify whether you will use a USB cable or SMA to connect to the Sync In port. |
 | Sync out             | The Sync out port is responsible for activating and modulating a laser source. Specify whether you will use a USB cable or SMA to connect to the Sync out port. |
@@ -367,7 +367,7 @@ By default the histogramm represents the cumulative of each point in the sample,
     <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="linear istogram">
 </div><br>
 
-Otherwise moving the cursor over a specific point of the Reconstructed image[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
+Otherwise moving the cursor over a specific point of the reconstructed image[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="jagged istogram">
@@ -420,7 +420,7 @@ Below the button <img src="../../assets/flim-studio/button-add.PNG" width='22px'
     <img src="../../assets/flim-studio/automatic-gmm.PNG" alt="automatic GMM settings">
 </div><br> 
 
-The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several Gaussian distributions.  
+The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several gaussian distributions.  
 In GMM, each gaussian element is a distinct cluster or subgroup within the overall data.  
 This model is particularly adept at handling scenarios where data points might be associated with more than one cluster, offering a nuanced view of data variability.
 
