@@ -401,8 +401,7 @@ Fluorescence lifetime profiles typically consist of various lifetimes stemming f
 To manually specify clusters on the phasor plot, click the green '+'<span><div>
 <img src="../../assets/flim-studio/button-add.PNG" alt="phasor plot and GMM settings" style="width:22px; height:22px; position:relative; top:4px"></div><div>
 <img src="../../assets/flim-studio/button-add.PNG" alt="phasor plot and GMM settings" style="width:22px; height:22px; position:relative; top:4px"></div>
-</span>
- then move your cursor over the phasor plot and place the cluster in the region of your choiche. Multiple clusters can be added to the phasor plot.    
+</span>then move your cursor over the phasor plot and place the cluster in the region of your choiche. Multiple clusters can be added to the phasor plot.    
 You can relocate a cluster by clicking its center and dragging it to a new position, then clicking again to set it.  
 Below the green '+' button is a table displaying cluster information:  
 * **Color**: Click on the color box to change the cluster's color (the selected color will be reflected also on the [sample reconstructed image](#reconstructed-image-section-1)).
