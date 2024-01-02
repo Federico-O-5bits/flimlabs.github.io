@@ -91,12 +91,15 @@
             </li>
              <li>
             <a href="#tcspc-histogramm-2">TCSPC histogramm</a>            
+            </li>        
+            <li>
+            <a href="#phasor-plot-and-flim-image">Phasor plot and FLIM image</a>            
             </li>
             <li>
             <a href="#gaussian-mixture-model---GMM">Gaussian Mixture Model - GMM </a>            
             </li>
             <li>
-            <a href="#manual-cluster-identification">Manual cluster identification</a>            
+            <a href="#circlets-positioning">Circlets positioning</a>            
             </li>
             <li>
             <a href="#automatic-gmm-cluster-identification">Automatic GMM cluster identification</a>            
@@ -493,7 +496,7 @@ Fluorescence lifetime profiles typically consist of various lifetimes stemming f
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##### Manual cluster identification
+##### Circlets positioning
 
 To manually specify clusters on the phasor plot, click the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> then move your cursor over the phasor plot and place the cluster in the region of your choiche. Multiple clusters can be added to the phasor plot.  
 You can relocate a cluster by clicking its center and dragging it to a new position, then clicking again to set it.
