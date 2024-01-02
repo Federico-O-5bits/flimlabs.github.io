@@ -496,7 +496,7 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 
 <br>
 <div align=center>
-<img src="../../assets/flim-studio/adding-circlets.gif">
+<img src="../../assets/flim-studio/adding-circlets.gif" alt="a gif showing how to add circlets in the phasor plot">
 </div><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -508,6 +508,13 @@ Here you can:
 
 - Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
 - Check the Harmonic value: The value is not editable and setted during the experiment configuration.
+
+<br>
+<div align=center>
+<img src="../../assets/flim-studio/phasor-plot-settings.gif" alt="a gif showing how to manage the phasor plot table settings">
+</div><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Gaussian Mixture Model - GMM
 
