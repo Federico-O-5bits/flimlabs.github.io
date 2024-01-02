@@ -78,7 +78,10 @@
            <a href="#data-feature">Data feature</a>
         </li>
         <li>
-           <a href="#save-experimentconfiguration">Save experiment/configuration</a>            
+           <a href="#save-experiment">Save experiment</a>            
+        </li>
+         <li>
+           <a href="#save-configuration">Save configuration</a>            
         </li>
          <li >
            <a href="#data-analysis">Data analysis</a>          
@@ -367,10 +370,17 @@ You'll be able to retrieve the saves in the Home section under the "Last experim
 <div align=center>
 <img src="../../assets/flim-studio/save-experiment.gif" alt="gif of the save experiment process">
 </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Save configuration
 
 Click on the save icon placed at the top-right corner of the view to the experiment configuation.
 You'll be able to retrieve the saves in the Home section under the "Last configuration used" voice.
+
+<div align=center>
+<img src="../../assets/flim-studio/save-configuration.gif" alt="gif of the save configuration process">
+</div
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
