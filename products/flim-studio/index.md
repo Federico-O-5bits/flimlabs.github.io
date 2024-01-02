@@ -277,7 +277,7 @@ This table offers a detailed breakdown of the significance of each field.
 
 ## Imaging experiment
 
-This section deals with more in-depth description of the imaging reconstruction experiment.
+This section deals with more in-depth description of the imaging experiment.
 <br>
 
 <div align="center">
