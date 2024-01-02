@@ -403,7 +403,7 @@ Otherwise moving the cursor over a specific point of the reconstructed image[1] 
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/jagged-istogramm.PNG" alt="jagged istogram">
+    <img src="../../assets/flim-studio/tcsp-histogramm.gif" alt="jagged istogram gif">
 </div><br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
