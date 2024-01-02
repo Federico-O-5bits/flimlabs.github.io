@@ -457,7 +457,7 @@ When analyzing an [Image](#sample-image) with a phasor plot, each pixel in the i
 For the same reasons mentioned earlier, applying a photon filter to a FLIM (Fluorescence Lifetime Imaging Microscopy) image will automatically alter the results seen in the phasor plot. This is because the phasor plot aggregates the fluorescence lifetime data from all pixels in the image. Therefore, any manipulation of the image data, such as filtering out certain photons, will change the lifetime information of those pixels, and subsequently, the distribution of points in the phasor plot will be affected.
 
 <br><div align=center>
-<img src="../../assets/flim-studio/photons-filter-and-phasor-plot1.gif" alt="a gif showing the correlation between the photons filter and the phasor">
+<img src="../../assets/flim-studio/photons-filter-and-phasor-plot1.gif" alt="a gif showing the correlation between the photons filter and the phasor" width="932px">
 
 </div><br>
 
