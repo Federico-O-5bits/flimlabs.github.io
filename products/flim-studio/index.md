@@ -407,7 +407,7 @@ The section consists of four elements, listed from left to right:
    - **Rectangle**: Analyzes a specific part of the image by selecting a rectangular area.
    - **Circle**: Analyzes a specific part of the image by selecting a circular area.
    - **Polyline**: Analyzes a specific part of the image by using a polyline to select the area.
-   - **Export**: Exports the experimental data, specifying the format (Matlab, HDF, Python, SVG).
+   - **Export**: Exports the experimental data, specifying the format (Python).
    <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### TCSPC histogramm [2]
