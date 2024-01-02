@@ -422,7 +422,7 @@ The selected color map will be applied to the cloud of point in the graphic.
 
 <br>
 <div align="center">
-    <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="phasor plot and GMM settings">
+    <img src="../../assets/flim-studio/gmm-clusters.PNG" alt="phasor plot and GMM settings">
 </div><br>
 
 Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of aussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
