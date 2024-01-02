@@ -281,7 +281,7 @@ This section deals with more in-depth description of the imaging reconstruction 
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/imaging-experiment-banner.png" alt="imaging-experiment-image">
+    <img src="../../assets/flim-studio/imaging-experiment.png" alt="imaging-experiment-image">
 </div><br>
 
 The imaging reconstruction experiment section provides two operational modes ([**Acquisition mode**](#acquisition-mode), [**View mode**](#view-mode)) and three different features divided by tabs ([**Reference tab**](#reference-tab), [**Scouting tab**](#scouting-feature), [**Data tab**](#data-tab)), allowing a systematic approach to fine-tune experiments.
