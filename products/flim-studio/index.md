@@ -399,7 +399,7 @@ The section consists of four elements, listed from left to right:
 
 1. **Photon Number Filter**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons **with the aim of filtering out dimmer pixels and enhanching phasor-plot precision (see .gif)**.
 2. **Color Map Selector**: Clicking on the colored bar opens a selection menu where you can choose your preferred color map. The selected color map will be applied to the adjacent reconstructed image.
-3. **Image**: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
+3. <span id="sample-image">**Image**</span>: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
 4. **Toolbar**: From the top, you can use the following features:
    - **Magnify**: Transforms the mouse cursor into a magnifying glass. Select the magnification value and move the cursor over the reconstructed image to explore it.
    - **Zoom**: After selecting the zoom value, an enlarged version of the reconstructed image will be displayed.
@@ -429,6 +429,8 @@ Otherwise moving the cursor over a specific point of the reconstructed image[1] 
 
 #### PHASOR PLOT [3]
 
+Click here to visit the FLIM LABS phasors webpage: [🔗](https://www.flimlabs.com/flim-phasors/)
+
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/phasor-plot.PNG" alt="phasor plot">
@@ -440,6 +442,14 @@ In the phasor plot different lifetime values (a cloud of points) are distributed
 
 Click on the bar at the left of the phasor plot to select your preferred color map.
 The selected color map will be applied to the cloud of point in the graphic.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Phasor plot and FLIM image
+
+When analyzing a [FLIM image](#sample-image) with a phasor plot, each pixel in the image is assigned a point in the plot based on its fluorescence lifetime. This means that multiple pixels with the same lifetime will appear as a single point in the phasor plot. As a result, this allows for the identification of regions within the image that exhibit homogeneous behaviors, and it aids in distinguishing between different fluorescent populations within a sample. This approach provides a comprehensive yet simplified view of the fluorescence characteristics spread across the image, making it easier to interpret and analyze complex fluorescence patterns.
+
+For the same reasons mentioned earlier, applying a photon filter to a FLIM (Fluorescence Lifetime Imaging Microscopy) image will automatically alter the results seen in the phasor plot. This is because the phasor plot aggregates the fluorescence lifetime data from all pixels in the image. Therefore, any manipulation of the image data, such as filtering out certain photons, will change the lifetime information of those pixels, and subsequently, the distribution of points in the phasor plot will be affected.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
