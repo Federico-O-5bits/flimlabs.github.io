@@ -481,6 +481,11 @@ Use the table at the right of the phasor plot to read and modify te following da
 - **m**: Stands for the modulation depth or the demodulation factor of the fluorescence signal. In modulated excitation experiments, both the excitation light and the emitted fluorescence are modulated. However, due to the finite lifetime of the excited state, the fluorescence emission will be demodulated relative to the excitation. The degree of this demodulation is related to the lifetime of the fluorescence emission; a more significant reduction in modulation depth indicates a longer fluorescence lifetime.
 - **Bin icon**: Click the icon<img src="../../assets/flim-studio/binIcon.PNG" width='22px' height='22px' alt="delete cluster icon">to delete the cluster.
 
+<br><div align=center>
+<img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="an img showing the phasor plot and the related circlets information table">
+
+</div><br>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Gaussian Mixture Model - GMM
