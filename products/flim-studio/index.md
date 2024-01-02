@@ -396,7 +396,7 @@ By default the histogramm represents the cumulative of each point in the sample,
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/linear-istogramm.PNG" alt="linear istogram">
+    <img src="../../assets/flim-studio/linear-histogramm-2.PNG" alt="linear istogram">
 </div><br>
 
 Otherwise moving the cursor over a specific point of the reconstructed image[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
