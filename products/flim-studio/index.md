@@ -400,7 +400,7 @@ After completing data acquisition (Acquisition mode), or upon loading a saved ex
 
 The section consists of four elements, listed from left to right:
 
-1. **Photon Number Filter**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons **with the aim of filtering out dimmer pixels and enhanching phasor-plot precision (see .gif)**.
+1. **Photon Number Filter**: By vertically moving the two sliders, you can filter the image areas to display based on the minimum and maximum number of photons **with the aim of filtering out dimmer pixels and enhanching phasor-plot precision (see [GIF](#photons-filter-gif))**.
 2. **Color Map Selector**: Clicking on the colored bar opens a selection menu where you can choose your preferred color map. The selected color map will be applied to the adjacent reconstructed image.
 3. <span id="sample-image">**Image**</span>: This displays the image reconstructed by the microscope, capturing photons emitted from the sample after excitation by the laser beam. The image enables visualization of the photon emission intensity in various areas of the sample.
 4. **Toolbar**: From the top, you can use the following features:
@@ -463,7 +463,7 @@ For the same reasons mentioned earlier, applying a photon filter to a FLIM (Fluo
 Therefore, any manipulation of the image data, such as filtering out certain photons, will change the lifetime information of those pixels, and subsequently, the distribution of points in the phasor plot will be affected.
 
 <br><div align=center>
-<img src="../../assets/flim-studio/photons-filter-and-phasor-plot1.gif" alt="a gif showing the correlation between the photons filter and the phasor" width="932px">
+<img id="photons-filter-gif" src="../../assets/flim-studio/photons-filter-and-phasor-plot1.gif" alt="a gif showing the correlation between the photons filter and the phasor" width="932px">
 
 </div><br>
 
