@@ -492,7 +492,11 @@ Use the table at the right of the phasor plot to read and modify te following da
 ##### Circlet positioning
 
 To manually specify a circlet on the phasor plot, click the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> then move your cursor over the phasor plot and place the circlet in the region of your choiche. Multiple circlets can be added to the phasor plot.  
-You can relocate a circlet by clicking its center and dragging it to a new position, then clicking again to set it.
+You can relocate a circlet by clicking its center and dragging it to a new position, then clicking again to set it.<br>
+
+<div align=center>
+<img src="../../assets/flim-studio/adding-circlets.gif">
+</div><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
