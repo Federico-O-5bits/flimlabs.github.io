@@ -511,7 +511,7 @@ Here you can:
 
 <br>
 <div align=center>
-<img src="../../assets/flim-studio/phasor-plot-settings1.gif" width="699px" alt="a gif showing how to manage the phasor plot table settings">
+<img src="../../assets/flim-studio/phasor-plot-settings1.gif" width="932px" alt="a gif showing how to manage the phasor plot table settings">
 </div><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
