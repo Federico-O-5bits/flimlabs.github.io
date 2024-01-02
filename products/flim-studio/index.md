@@ -77,6 +77,9 @@
          <li >
            <a href="#data-feature">Data feature</a>
         </li>
+        <li>
+           <a href="#save-experimentconfiguration">Save experiment/configuration</a>            
+        </li>
          <li >
            <a href="#data-analysis">Data analysis</a>          
           <ul>
@@ -100,9 +103,6 @@
             </li>
             <li>
             <a href="#settings">Settings</a>            
-            </li>
-            <li>
-            <a href="#save-experimentconfiguration">Save experiment/configuration</a>            
             </li>
           </ul>
         </li>
@@ -359,6 +359,11 @@ When the acquisition is completed you can begin the [data analysis](#data-analys
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Save experiment/configuration
+
+Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
+You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
+
 ### Data analysis
 
 After completing data acquisition (Acquisition mode), or upon loading a saved experiment (View mode) you can start analyzing the experiment records using the data visualization tools provided by FLIM STUDIO. (**Reconstructed image section [1]**, **TCSPC histogramm [2]**, **Phasor plot and GMM (AI) [3]**)
@@ -495,11 +500,6 @@ Here you can:
 
 - Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
 - Check the Harmonic value: The value is not editable and setted during the experiment configuration.
-
-##### Save experiment/configuration
-
-Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
-You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
 
 <!-- CONTACT -->
 
