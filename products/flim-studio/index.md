@@ -387,12 +387,7 @@ The section consists of four elements, listed from left to right:
 
 #### TCSPC histogramm [2]
 
-In this section a fluorescence intensity decay profile histogramm is represented.  
-The x-axis of the TCSPC histogram represents the time intervals following a laser pulse used to excite the sample. Each interval correlates with a certain delay after the excitation pulse, and it is within these slices of time that the photon counts are recorded.  
-On the y-axis, you will find the number of photon events detected, which effectively measures the intensity of fluorescence at each time interval.  
-The data plotted in the histogram spans across the period of the laser pulse. This means that the photon detection is synchronized with the periodicity of the laser.  
-From the negative exponential curve of the histogram, you can deduce the fluorescence lifetime of the sample.
-By default the histogramm represents the cumulative of each point in the sample, so the represented curve will be linear.  
+This section displays a fluorescence intensity decay profile histogram. The x-axis shows time intervals after a laser pulse excites the sample, with each interval indicating a delay time for photon count recording. The y-axis represents detected photon events, reflecting fluorescence intensity at each interval. The data covers the laser pulse period, synchronizing photon detection with the laser's periodicity. The histogram's negative exponential curve indicates the sample's fluorescence lifetime. Typically, the histogram cumulatively represents each sample point, resulting in a linear curve.  
 <br>
 
 <div align="center">
