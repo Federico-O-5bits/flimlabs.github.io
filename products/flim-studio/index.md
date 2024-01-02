@@ -496,7 +496,7 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 
 <br>
 <div align=center>
-<img src="../../assets/flim-studio/adding-circlets.gif" alt="a gif showing how to add circlets in the phasor plot">
+<img src="../../assets/flim-studio/adding-circlets.gif"  width="932px" alt="a gif showing how to add circlets in the phasor plot">
 </div><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
