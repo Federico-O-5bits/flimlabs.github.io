@@ -489,6 +489,13 @@ Use the table at the right of the phasor plot to read and modify te following da
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+##### Circlet positioning
+
+To manually specify a circlet on the phasor plot, click the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> then move your cursor over the phasor plot and place the circlet in the region of your choiche. Multiple circlets can be added to the phasor plot.  
+You can relocate a circlet by clicking its center and dragging it to a new position, then clicking again to set it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Gaussian Mixture Model - GMM
 
 Click here to visit the FLIM LABS GMM webpage: [🔗](https://www.flimlabs.com/flim-gmm/)
@@ -499,13 +506,6 @@ Click here to visit the FLIM LABS GMM webpage: [🔗](https://www.flimlabs.com/f
 </div><br>
 
 Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of aussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-##### Circlet positioning
-
-To manually specify a circlet on the phasor plot, click the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> then move your cursor over the phasor plot and place the circlet in the region of your choiche. Multiple circlets can be added to the phasor plot.  
-You can relocate a circlet by clicking its center and dragging it to a new position, then clicking again to set it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
