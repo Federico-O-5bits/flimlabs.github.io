@@ -96,10 +96,10 @@
             <a href="#phasor-plot-and-flim-image">Phasor plot and FLIM image</a>            
             </li>
             <li>
-            <a href="#gaussian-mixture-model---GMM">Gaussian Mixture Model - GMM </a>            
+            <a href="#circlet-positioning">Circlet positioning</a>            
             </li>
             <li>
-            <a href="#circlet-positioning">Circlet positioning</a>            
+            <a href="#gaussian-mixture-model---GMM">Gaussian Mixture Model - GMM </a>            
             </li>
             <li>
             <a href="#automatic-gmm-cluster-identification">Automatic GMM cluster identification</a>            
