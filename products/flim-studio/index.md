@@ -420,6 +420,8 @@ The selected color map will be applied to the cloud of point in the graphic.
 
 #### Gaussian Mixture Model - GMM
 
+FlimLabs GMM webpage:[🔗](https://www.flimlabs.com/flim-gmm/)
+
 <br>
 <div align="center">
     <img src="../../assets/flim-studio/gmm-clusters.PNG" alt="phasor plot and GMM settings">
