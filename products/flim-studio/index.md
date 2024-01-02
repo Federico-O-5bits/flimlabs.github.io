@@ -353,8 +353,7 @@ Follow these step to use the **Data feature**:
 
 - Navigate to the **Data tab** placed at the upper-left side of the interface.
 - Navigate to the upper-right corner of the interface and set the number of frames to be captured (ex. 20) in the "Number of frame".
-
-* Begin the acquisition process by clicking the start icon, located at the top right of the interface.
+- Begin the acquisition process by clicking the start icon, located at the top right of the interface.
 
 The software will commence data acquisition and automatically cease upon reaching the designated number of frames.
 When the acquisition is completed you can begin the [data analysis](#data-analysis).
