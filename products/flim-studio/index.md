@@ -99,6 +99,9 @@
             <a href="#circlet-positioning">Circlet positioning</a>            
             </li>
             <li>
+            <a href="#settings">Settings</a>            
+            </li>
+            <li>
             <a href="#gaussian-mixture-model---GMM">Gaussian Mixture Model - GMM </a>            
             </li>
             <li>
@@ -106,9 +109,6 @@
             </li>
              <li>
             <a href="#non-automatic-gmm-cluster-identification">Non automatic GMM cluster identification </a>            
-            </li>
-            <li>
-            <a href="#settings">Settings</a>            
             </li>
           </ul>
         </li>
@@ -500,6 +500,14 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+##### Settings
+
+Click the button <img src="../../assets/flim-studio/settings-button.PNG" width='22px' height='22px' alt="open settings button"> to open the settings select.
+Here you can:
+
+- Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
+- Check the Harmonic value: The value is not editable and setted during the experiment configuration.
+
 #### Gaussian Mixture Model - GMM
 
 Click here to visit the FLIM LABS GMM webpage: [🔗](https://www.flimlabs.com/flim-gmm/)
@@ -550,14 +558,6 @@ To run the non automatic gmm cluster identification follow these steps:
 - Specify whether to use the alpha channel on the 'Alpha channel' input field
 - Click the 'Run' button to initiate the cluster identification process.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-##### Settings
-
-Click the button <img src="../../assets/flim-studio/settings-button.PNG" width='22px' height='22px' alt="open settings button"> to open the settings select.
-Here you can:
-
-- Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
-- Check the Harmonic value: The value is not editable and setted during the experiment configuration.
 
 <!-- CONTACT -->
 
