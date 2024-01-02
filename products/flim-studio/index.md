@@ -87,7 +87,7 @@
             <a href="#tcspc-histogramm-2">TCSPC histogramm</a>            
             </li>
             <li>
-            <a href="#gmm--ai">GMM & AI</a>            
+            <a href="#gaussian-mixture-model--GMM">Gaussian Mixture Model - GMM </a>            
             </li>
             <li>
             <a href="#manual-cluster-identification">Manual cluster identification</a>            
@@ -418,7 +418,7 @@ The selected color map will be applied to the cloud of point in the graphic.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### GMM & AI
+#### Gaussian Mixture Model - GMM
 
 <br>
 <div align="center">
