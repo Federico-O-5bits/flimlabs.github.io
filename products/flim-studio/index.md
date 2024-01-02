@@ -466,6 +466,7 @@ Therefore, any manipulation of the image data, such as filtering out certain pho
 <img id="photons-filter-gif" src="../../assets/flim-studio/photons-filter-and-phasor-plot1.gif" alt="a gif showing the correlation between the photons filter and the phasor" width="932px">
 
 </div><br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Use the table at the right of the phasor plot to read and modify te following datas:
 
