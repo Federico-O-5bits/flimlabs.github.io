@@ -359,10 +359,20 @@ When the acquisition is completed you can begin the [data analysis](#data-analys
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Save experiment/configuration
+### Save experiment
 
-Click on the save icon placed at the top-right corner of the view to save the experiment or the experiment configuation.
-You'll be able to retrieve the saves in the Home section under the "Last experiment saved" and "Last configuration used" voices.
+Click on the save icon placed at the top-right corner of the view to save the experiment.
+You'll be able to retrieve the saves in the Home section under the "Last experiment saved" voice.
+
+<div align=center>
+<img src="../../assets/flim-studio/save-experiment.gif" alt="gif of the save experiment process">
+</div>
+### Save configuration
+
+Click on the save icon placed at the top-right corner of the view to the experiment configuation.
+You'll be able to retrieve the saves in the Home section under the "Last configuration used" voice.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Data analysis
 
