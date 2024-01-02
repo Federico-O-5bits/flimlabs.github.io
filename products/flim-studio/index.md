@@ -87,7 +87,7 @@
             <a href="#tcspc-histogramm-2">TCSPC histogramm</a>            
             </li>
             <li>
-            <a href="#gaussian-mixture-model--GMM">Gaussian Mixture Model - GMM </a>            
+            <a href="#gaussian-mixture-model---GMM">Gaussian Mixture Model - GMM </a>            
             </li>
             <li>
             <a href="#manual-cluster-identification">Manual cluster identification</a>            
