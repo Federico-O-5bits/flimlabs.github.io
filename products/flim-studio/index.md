@@ -99,7 +99,7 @@
             <a href="#gaussian-mixture-model---GMM">Gaussian Mixture Model - GMM </a>            
             </li>
             <li>
-            <a href="#circlets-positioning">Circlets positioning</a>            
+            <a href="#circlet-positioning">Circlet positioning</a>            
             </li>
             <li>
             <a href="#automatic-gmm-cluster-identification">Automatic GMM cluster identification</a>            
@@ -212,7 +212,7 @@ FLIM STUDIO provides three configuration modalities, **Wizard mode**, **Advanced
 
 <br>
 <div align="center">
-    <img src="../../assets/flim-studio/wizard-gif.gif" alt="non automatic GMM settings">
+    <img src="../../assets/flim-studio/wizard-gif.gif" alt="flim studio wizard mode view">
 </div><br>
 In this mode, a graphical representation of the settings being configured is provided, along with a step-by-step process.  
 This allows the user to benefit from a guided and simplified experience, optimizing the setup process.
@@ -222,7 +222,7 @@ This allows the user to benefit from a guided and simplified experience, optimiz
 
 <br>
 <div align="center">
-    <img src="../../assets/flim-studio/advanced-gif.gif" alt="non automatic GMM settings">
+    <img src="../../assets/flim-studio/advanced-gif.gif" alt="flim studio advanced mode view">
 </div><br>
 The advanced mode bring a comprehensive range of customization options and provides the ability to fine-tune and set additional parameters, offering an expanded suite of options in a single view.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -287,7 +287,7 @@ This section deals with more in-depth description of the imaging experiment.
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/imaging-experiment-banner.PNG" alt="imaging-experiment-image">
+    <img src="../../assets/flim-studio/imaging-experiment-banner.PNG" alt="imaging-experiment-view">
 </div><br>
 
 The imaging reconstruction experiment section provides two operational modes ([**Acquisition mode**](#acquisition-mode), [**View mode**](#view-mode)) and three different features divided by tabs ([**Reference tab**](#reference-tab), [**Scouting tab**](#scouting-feature), [**Data tab**](#data-tab)), allowing a systematic approach to fine-tune experiments.
@@ -393,7 +393,7 @@ After completing data acquisition (Acquisition mode), or upon loading a saved ex
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/imaging-experiment-2-edited-cutted.png" alt="imaging-reconstruction-experiment-image">
+    <img src="../../assets/flim-studio/imaging-experiment-2-edited-cutted.png" alt="imaging-reconstruction-experiment-view">
 </div><br>
 
 #### Reconstructed image section [1]
@@ -419,14 +419,14 @@ This section displays a fluorescence intensity decay profile histogram. The x-ax
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/linear-histogram-3.PNG" alt="linear histogram">
+    <img src="../../assets/flim-studio/linear-histogram-3.PNG" alt="TCSPC linear histogramm">
 </div><br>
 
 Otherwise moving the cursor over a specific point of the reconstructed image[1] the graphic will show the acquired data for that specific part, resulting in a jagged line.
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/histogramm.gif" alt="jagged istogram gif">
+    <img src="../../assets/flim-studio/histogramm.gif" alt=" TCSPC jagged histogramm gif">
 </div><br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -480,7 +480,7 @@ Use the table at the right of the phasor plot to read and modify te following da
 - **τm** (Modulation lifetime): Represents the modulation lifetime, also from frequency-domain measurements. It is calculated from the demodulation of the fluorescence signal relative to the excitation light. Identical τm and τφ values suggest a single exponential component in fluorescence decay, indicating a uniform lifetime throughout the sample.
 - **φ**: Represents the phase shift between the excitation light and the emitted fluorescence. It's a measure of how much the emission lags behind the oscillating excitation source in frequency-domain fluorometry. The phase shift is related to the fluorescence lifetime; a larger phase shift generally indicates a longer fluorescence lifetime.
 - **m**: Stands for the modulation depth or the demodulation factor of the fluorescence signal. In modulated excitation experiments, both the excitation light and the emitted fluorescence are modulated. However, due to the finite lifetime of the excited state, the fluorescence emission will be demodulated relative to the excitation. The degree of this demodulation is related to the lifetime of the fluorescence emission; a more significant reduction in modulation depth indicates a longer fluorescence lifetime.
-- **Bin icon**: Click the icon<img src="../../assets/flim-studio/binIcon.PNG" width='22px' height='22px' alt="delete cluster icon">to delete the cluster.
+- **Bin icon**: Click the icon<img src="../../assets/flim-studio/binIcon.PNG" width='22px' height='22px' alt="delete circlet icon">to delete the cluster.
 
 <br><div align=center>
 <img src="../../assets/flim-studio/GMM-and-AI.PNG" alt="an img showing the phasor plot and the related circlets information table">
@@ -502,7 +502,7 @@ Fluorescence lifetime profiles typically consist of various lifetimes stemming f
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##### Circlets positioning
+##### Circlet positioning
 
 To manually specify a circlet on the phasor plot, click the button <img src="../../assets/flim-studio/button-add.PNG" width='22px' height='22px' alt="add circlet button"> then move your cursor over the phasor plot and place the circlet in the region of your choiche. Multiple circlets can be added to the phasor plot.  
 You can relocate a circlet by clicking its center and dragging it to a new position, then clicking again to set it.
