@@ -449,15 +449,17 @@ The selected color map will be applied to the cloud of point in the graphic.
 
 When analyzing an [Image](#sample-image) with a phasor plot, each pixel in the image is assigned a point in the plot based on its fluorescence lifetime. This means that multiple pixels with the same lifetime will appear as a single point in the phasor plot. As a result, this allows for the identification of regions within the image that exhibit homogeneous behaviors, and it aids in distinguishing between different fluorescent populations within a sample. This approach provides a comprehensive yet simplified view of the fluorescence characteristics spread across the image, making it easier to interpret and analyze complex fluorescence patterns.
 
-<div align=center>
+<br><div align=center>
 <img src="../../assets/flim-studio/phasor-plot-and-image.gif" alt="a gif showing the correlation between the phasor plot and the FLIM image">
-</div>
+
+</div><br>
 
 For the same reasons mentioned earlier, applying a photon filter to a FLIM (Fluorescence Lifetime Imaging Microscopy) image will automatically alter the results seen in the phasor plot. This is because the phasor plot aggregates the fluorescence lifetime data from all pixels in the image. Therefore, any manipulation of the image data, such as filtering out certain photons, will change the lifetime information of those pixels, and subsequently, the distribution of points in the phasor plot will be affected.
 
-<div align=center>
+<br><div align=center>
 <img src="../../assets/flim-studio/phasor-plot-and-image.gif" alt="a gif showing the correlation between the phasor plot and the FLIM image">
-</div>
+
+</div><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
