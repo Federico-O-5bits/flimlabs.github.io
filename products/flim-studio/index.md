@@ -450,7 +450,7 @@ The selected color map will be applied to the cloud of point in the graphic.
 When analyzing an [Image](#sample-image) with a phasor plot, each pixel in the image is assigned a point in the plot based on its fluorescence lifetime. This means that multiple pixels with the same lifetime will appear as a single point in the phasor plot. As a result, this allows for the identification of regions within the image that exhibit homogeneous behaviors, and it aids in distinguishing between different fluorescent populations within a sample. This approach provides a comprehensive yet simplified view of the fluorescence characteristics spread across the image, making it easier to interpret and analyze complex fluorescence patterns.
 
 <br><div align=center>
-<img src="../../assets/flim-studio/phasor-plot-and-image.gif" alt="a gif showing the correlation between the phasor plot and the FLIM image">
+<img src="../../assets/flim-studio/phasor-plot-and-image1.gif" alt="a gif showing the correlation between the phasor plot and the FLIM image">
 
 </div><br>
 
