@@ -380,7 +380,7 @@ You'll be able to retrieve the saves in the Home section under the "Last configu
 
 <div align=center>
 <img src="../../assets/flim-studio/save-configuration.gif" alt="gif of the save configuration process">
-</div
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
