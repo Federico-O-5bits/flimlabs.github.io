@@ -148,11 +148,13 @@ You can download our software latest version at this [link](https://www.flimlabs
 ### Prerequisites
 
 - Possess a [FLIM LABS data acquisition card](https://www.flimlabs.com/products/data-acquisition-card/).
+
+<br>
   <p align="center"><img src="../../assets/flim-studio/device-connected.PNG" alt="connected device serial number id" height="400px" >
   <img src="../../assets/flim-studio/device-not-connected.PNG" alt="device non connected error message" height="400px" >
-  </p>
+  </p><br>
 
-  Verify whether the software detects or recognizes the card, and ensure that it returns the card's serial number.
+Verify whether the software detects or recognizes the card, and ensure that it returns the card's serial number.
 
 - Windows OS
 
