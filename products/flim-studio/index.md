@@ -196,9 +196,8 @@ Here you can perform several actions:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non neque efficitur, lobortis neque facilisis, tempus est. Quisque dui arcu, hendrerit sit amet placerat id, tincidunt ac sapien. In interdum mi mi, vitae posuere nisl consectetur eget. Duis aliquet elit sit amet lacus malesuada lobortis. Ut gravida mauris ac quam egestas elementum. Curabitur vitae justo bibendum, vestibulum nibh vitae, auctor leo. -->
 
 - ### Start an experiment
-  Click the "Start" button to begin an experiment configuration, the menu will require you to select the modality through execute it (Wizard, Advanced, From Local Folder).  
-  _Check the sections below for detailed information about each modality_
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+  To initiate an experiment configuration, simply click on the "Start" button. The ensuing menu will prompt you to choose from three distinct modalities to configure the software: Wizard, Advanced, or From Local Folder.
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Start an experiment
 
