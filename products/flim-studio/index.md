@@ -533,7 +533,7 @@ Fluorescence lifetime profiles typically consist of various lifetimes stemming f
 
 <br>
 <div align="center">
-    <img src="../../assets/flim-studio/automatic-gmm2.PNG" width="932px" alt="automatic GMM settings">
+    <img src="../../assets/flim-studio/automatic-gmm-identification2.PNG" width="932px" alt="automatic GMM settings">
 </div><br>
 
 The Gaussian Mixture Model (GMM) is a probabilistic approach that interprets a dataset as a blend of several gaussian distributions.  
