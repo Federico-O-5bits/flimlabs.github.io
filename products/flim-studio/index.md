@@ -430,7 +430,7 @@ Otherwise moving the cursor over a specific point of the reconstructed image[1] 
 </div><br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### PHASOR PLOT [3]
+#### Phasor plot [3]
 
 Click here to visit the FLIM LABS phasors webpage: [🔗](https://www.flimlabs.com/flim-phasors/)
 
@@ -525,7 +525,7 @@ Click here to visit the FLIM LABS GMM webpage: [🔗](https://www.flimlabs.com/f
     <img src="../../assets/flim-studio/gmm-clusters.PNG" alt="phasor plot and GMM settings">
 </div><br>
 
-Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of aussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
+Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -550,7 +550,7 @@ To enable automatic GMM cluster detection follow these steps:
 - Click the 'Run' button to initiate the automatic identification of GMM clusters.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##### Non atomatic GMM cluster identification
+##### Non automatic GMM cluster identification
 
 <br>
 <div align="center">
