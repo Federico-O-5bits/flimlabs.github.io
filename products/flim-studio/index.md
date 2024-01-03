@@ -175,6 +175,7 @@ Once the download is completed follow these steps to install FLIM STUDIO on your
 ## Home section
 
 The initial screen you'll encounter upon launching FLIM STUDIO is the home section.
+
 <br>
 
 <div align="center">
@@ -373,7 +374,7 @@ Click on the save icon placed at the top-right corner of the view to save the ex
 You'll be able to retrieve the saves in the Home section under the "Last experiment saved" voice.
 
 <div align=center>
-<img src="../../assets/flim-studio/save-experiment.gif" alt="gif of the save experiment process">
+<img src="../../assets/flim-studio/save-experiment.gif" width="932px" alt="gif of the save experiment process">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -384,7 +385,7 @@ Click on the save icon placed at the top-right corner of the view to the experim
 You'll be able to retrieve the saves in the Home section under the "Last configuration used" voice.
 
 <div align=center>
-<img src="../../assets/flim-studio/save-configuration.gif" alt="gif of the save configuration process">
+<img src="../../assets/flim-studio/save-configuration.gif" width="932px" alt="gif of the save configuration process">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
