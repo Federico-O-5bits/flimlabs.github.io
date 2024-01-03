@@ -525,7 +525,7 @@ Click here to visit the FLIM LABS GMM webpage: [🔗](https://www.flimlabs.com/f
 
 <br>
 <div align="center">
-    <img src="../../assets/flim-studio/gmm-clusters.PNG" alt="phasor plot and GMM settings">
+    <img src="../../assets/flim-studio/gmm-clusters.PNG" width="932px" alt="phasor plot and GMM settings">
 </div><br>
 
 Fluorescence lifetime profiles typically consist of various lifetimes stemming from multiple fluorophores. The combination of Gaussian Mixture Models (GMM) and clustering methods facilitates the separation of these complex distributions, enabling you to identify and classify unique populations of fluorescence lifetimes present in a specimen.
