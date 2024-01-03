@@ -506,7 +506,7 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 Click the button <img src="../../assets/flim-studio/settings-button.PNG" width='22px' height='22px' alt="open settings button"> to open the settings select.
 Here you can:
 
-- Modify the phasor plot image bins: Click on 'Bins' and select the desired number of pixels
+- Adjust the phasor plot image bins by clicking on 'Bins' and choosing the preferred number of bins for histogramming the phasor plot.
 - Check the Harmonic value: The value is not editable and setted during the experiment configuration.
 
 <br>
