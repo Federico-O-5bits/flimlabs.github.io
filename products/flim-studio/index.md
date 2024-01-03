@@ -176,7 +176,7 @@ The initial screen you'll encounter upon launching FLIM STUDIO is the home secti
 <br>
 
 <div align="center">
-    <img src="../../assets/flim-studio/flim-studio-home.PNG" alt="flim studio home section">
+    <img src="../../assets/flim-studio/home-section.PNG" alt="flim studio home section">
 </div><br>
 
 Here you can perform several actions:
