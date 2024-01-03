@@ -12,6 +12,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+  <li>
+      <a href="#legend">Legend</a>
+    </li>
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
@@ -119,6 +122,11 @@
     </li>
   </ol>
 </details>
+
+### Legend
+
+- [📖](#) - "Internal Section Link": Click this icon to navigate to specific sections within the manual. It serves as a quick reference to easily access detailed information related to the text it accompanies.
+- [🔗](#) - "Specific Topic External Link": Click this icon to visit the specific section related to the topic on the official FLIM LABS website. It directs you to a dedicated page where you can find more detailed information about the subject matter mentioned in the text.
 
 <!-- ABOUT THE PROJECT -->
 
