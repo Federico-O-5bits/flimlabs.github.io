@@ -125,10 +125,10 @@
 
 ## Legend
 
-| Icona   | Descrizione                                                                                                                                                                                                                                                             |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [📖](#) | "Internal Section Link": Fai clic su questa icona per navigare in specifiche sezioni all'interno del manuale. Funziona come riferimento rapido per accedere facilmente a informazioni dettagliate relative al testo che accompagna.                                     |
-| [🔗](#) | "Specific Topic External Link": Fai clic su questa icona per visitare la sezione specifica relativa all'argomento sul sito web ufficiale di FLIM LABS. Ti indirizza a una pagina dedicata dove puoi trovare informazioni più dettagliate sul tema menzionato nel testo. |
+| Icon    | Description                                                                                                                                                                                                                                                           |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [📖](#) | "Internal Section Link": Click this icon to navigate to specific sections within the manual. It serves as a quick reference to easily access detailed information related to the text it accompanies.                                                                 |
+| [🔗](#) | "Specific Topic External Link": Click this icon to visit the specific section related to the topic on the official FLIM LABS website. It directs you to a dedicated page where you can find more detailed information about the subject matter mentioned in the text. |
 
 <!-- ABOUT THE PROJECT -->
 
