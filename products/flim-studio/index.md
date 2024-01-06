@@ -307,9 +307,9 @@ The imaging reconstruction experiment section provides two operational modes ([*
 
 ### Acquisition mode
 
-Flim Studio is an asynchronous acquisition software, meaning it operates independently of the connected image acquisition system.  
-This can result in Flim Studio missing the first incoming frame if it starts after the image acquisition system, potentially leading to partial data capture.  
-To mitigate this, Flim Studio automatically discards the first received frame, ensuring that only fully complete frames are captured. This strategy enhances the integrity and reliability of the data collected, as it prevents the inclusion of any potentially incomplete initial frames.
+FLIM STUDIO is an asynchronous acquisition software, meaning it operates independently of the connected image acquisition system.  
+This can result in FLIM STUDIO missing the first incoming frame if it starts after the image acquisition system, potentially leading to partial data capture.  
+To mitigate this, **FLIM STUDIO automatically discards the first received frame**, ensuring that only fully complete frames are captured. This strategy enhances the integrity and reliability of the data collected, as it prevents the inclusion of any potentially incomplete initial frames.
 
 After [configuring the experiment](#configure-an-experiment), this mode is activated for acquiring new experimental data.  
 You can use the **Scouting tab**, **Reference tab** and **Data tab** to successfully complete the experiment.
