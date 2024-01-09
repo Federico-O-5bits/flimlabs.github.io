@@ -102,7 +102,7 @@
             <a href="#circlet-positioning">Circlet positioning</a>            
             </li>
             <li>
-            <a href="#circlet-positioning">Centering a circlet</a>            
+            <a href="#circlet-centering">Circlet centering</a>            
             </li>        
             <li>
             <a href="#settings">Settings</a>            
@@ -521,7 +521,7 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Centering a circlet
+#### Circlet centering
 
 Use the auto-center feature to automatically center the circlet within the cloud of points. This function calculates the average fluorescence lifetime value of the entire cloud, based on the fluorescence lifetime values of each individual point within the cloud, thereby automatically determining the center.
 
