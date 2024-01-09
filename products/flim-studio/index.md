@@ -102,6 +102,9 @@
             <a href="#circlet-positioning">Circlet positioning</a>            
             </li>
             <li>
+            <a href="#circlet-positioning">Centering a circlet</a>            
+            </li>        
+            <li>
             <a href="#settings">Settings</a>            
             </li>
             <li>
@@ -514,6 +517,17 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 <br>
 <div align=center>
 <img src="../../assets/flim-studio/adding-circlets.gif"  width="932px" alt="a gif showing how to add circlets in the phasor plot">
+</div><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Centering a circlet
+
+Use the auto-center feature to automatically center the circlet within the cloud of points. This function calculates the average fluorescence lifetime value of the entire cloud, based on the fluorescence lifetime values of each individual point within the cloud, thereby automatically determining the center.
+
+<br>
+<div align=center>
+<img src=""  width="932px" alt="a gif showing how to add circlets in the phasor plot">Add GIF here
 </div><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
