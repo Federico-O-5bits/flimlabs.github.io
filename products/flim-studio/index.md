@@ -103,7 +103,10 @@
             </li>
             <li>
             <a href="#circlet-centering">Circlet centering</a>            
-            </li>        
+            </li> 
+            <li>
+            <a href="#applyng-a-median-filter">Applyng a median filter</a>            
+            </li> 
             <li>
             <a href="#settings">Settings</a>            
             </li>
@@ -525,6 +528,20 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 
 Use the auto-center feature to automatically center the circlet within the cloud of points.  
 This function calculates 'g' and 's' for each point, where 'g' represents the abscissa (horizontal axis) and 's' the ordinate (vertical axis) on the phasor plot. It then computes the average values of 'g' and 's' across all points in the cloud. Based on these average values, the feature automatically determines the center of the cloud.
+
+<br>
+<div align=center>
+<img src=""  width="932px" alt="a gif showing how to add circlets in the phasor plot">Add GIF here
+</div><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Applyng a median filter
+
+In the phasor plot, the median filter, applied separately to each axis, processes points as if they were individual images. This method, replacing each point with the median value of neighboring points, effectively reduces noise. By treating each axis independently, the filter not only enhances data quality and maintains significant features but also reduces the diameter of the point cloud. This reduction in cloud diameter leads to increased precision in FLIM analysis.  
+Crucially, the approach preserves spatial resolution and measurement accuracy, which is centered in the point cloud, thus ensuring improved image clarity while maintaining the integrity of the FLIM data.
+
+** Instructions placeholder **
 
 <br>
 <div align=center>
