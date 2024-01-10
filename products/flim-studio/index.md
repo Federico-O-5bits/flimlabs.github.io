@@ -108,7 +108,7 @@
             <a href="#applyng-a-median-filter">Applyng a median filter</a>            
             </li> 
             <li>
-            <a href="#applyng-a-phase-gradient-backgorund">Applyng a phase gradient background</a>            
+            <a href="#applyng-a-phase-gradient-background">Applyng a phase gradient background</a>            
             </li> 
               <li>
             <a href="#applyng-a-radial-gradient-background">Applyng a radial gradient background</a>            
