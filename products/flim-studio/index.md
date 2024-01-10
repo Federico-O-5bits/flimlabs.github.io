@@ -550,6 +550,32 @@ Crucially, the approach preserves spatial resolution and measurement accuracy, w
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+#### Applyng a phase gradient background
+
+Applying a color map to the background of the phasor plot enhances data analysis. The angular distribution of the color gradient highlights phase differences (phi) among various points in the sample, aiding in identifying temporal variations in the fluorescence signal. This approach also impacts the reconstructed image: points will be highlighted in the same color they fall under in the phasor plot's color map, providing a direct visual correspondence between the plot and the reconstructed image, thus facilitating the interpretation of the sample's properties.
+
+** Instructions placeholder **
+
+<br>
+<div align=center>
+<img src=""  width="932px" alt="a gif showing how to add circlets in the phasor plot">Add GIF here
+</div><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Applyng a radial gradient background
+
+By applying a radial-distributed color map to the background of the phasor plot, the color gradient emphasizes the modulation degree of the fluorescence signal. This method highlights the variations in the modulation depth, reflecting the degree of demodulation relative to excitation. It aids in revealing changes related to the modulation of the fluorescence signal. The effect of this color map also extends to the reconstructed image: points will be marked with the same color they have on the color map, establishing a visual link between the phasor plot and the reconstructed image, enhancing the interpretation of the sample's properties.
+
+** Instructions placeholder **
+
+<br>
+<div align=center>
+<img src=""  width="932px" alt="a gif showing how to add circlets in the phasor plot">Add GIF here
+</div><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ##### Settings
 
 Click the button <img src="../../assets/flim-studio/settings-button.PNG" width='22px' height='22px' alt="open settings button"> to open the settings select.
