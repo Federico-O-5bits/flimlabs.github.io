@@ -114,6 +114,9 @@
             <a href="#applyng-a-radial-gradient-background">Applyng a radial gradient background</a>            
             </li> 
             <li>
+            <a href="#applyng-a-radial-gradient-background">Entangled circlets</a>            
+            </li> 
+            <li>
             <a href="#settings">Settings</a>            
             </li>
             <li>
@@ -572,6 +575,19 @@ Applying a color map to the background of the phasor plot enhances data analysis
 #### Applyng a radial gradient background
 
 By applying a radial-distributed color map to the background of the phasor plot, the color gradient emphasizes the modulation degree of the fluorescence signal. This method highlights the variations in the modulation depth, reflecting the degree of demodulation relative to excitation. It aids in revealing changes related to the modulation of the fluorescence signal. The effect of this color map also extends to the reconstructed image: points will be marked with the same color they have on the color map, establishing a visual link between the phasor plot and the reconstructed image, enhancing the interpretation of the sample's properties.
+
+** Instructions placeholder **
+
+<br>
+<div align=center>
+<img src=""  width="932px" alt="a gif showing how to add circlets in the phasor plot">Add GIF here
+</div><br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#### Entangled circlets
+
+You can apply a linear gradient between two circlets on the phasor plot. This gradient starts at one circlet and extends upward to the other. The linear band of colors represents the transitional shift between these two distinct clusters, providing a visual representation of the changing fluorescence properties across this region of the phasor plot. The effect of this color map also extends to the reconstructed image: points will be marked with the same color they have on the color map, establishing a visual link between the phasor plot and the reconstructed image, enhancing the interpretation of the sample's properties.
 
 ** Instructions placeholder **
 
