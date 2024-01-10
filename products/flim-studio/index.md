@@ -111,7 +111,7 @@
             <a href="#applyng-a-phase-gradient-backgorund">Applyng a phase gradient background</a>            
             </li> 
               <li>
-            <a href="#applyng-a-radial-gradient-backgroundr">Applyng a radial gradient background</a>            
+            <a href="#applyng-a-radial-gradient-background">Applyng a radial gradient background</a>            
             </li> 
             <li>
             <a href="#settings">Settings</a>            
