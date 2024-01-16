@@ -111,7 +111,7 @@
             <a href="#phase-gradient-background">Phase gradient background</a>            
             </li> 
               <li>
-            <a href="#applyng-a-radial-gradient-background">Applyng a radial gradient background</a>            
+            <a href="#radial-gradient-background">Radial gradient background</a>            
             </li> 
             <li>
             <a href="#applyng-a-radial-gradient-background">Entangled circlets</a>            
@@ -572,9 +572,9 @@ Applying a color map to the background of the phasor plot enhances data analysis
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Applyng a radial gradient background
+#### Radial gradient background
 
-By applying a radial-distributed color map to the background of the phasor plot, the color gradient emphasizes the modulation degree of the fluorescence signal. This method highlights the variations in the modulation depth, reflecting the degree of demodulation relative to excitation. It aids in revealing changes related to the modulation of the fluorescence signal. The effect of this color map also extends to the reconstructed image: points will be marked with the same color they have on the color map, establishing a visual link between the phasor plot and the reconstructed image, enhancing the interpretation of the sample's properties.
+Applying a color map to the background of the phasor plot enhances data analysis. The angular distribution of the color gradient highlights modulation fluorescence lifetime (τm) differences among various points in the sample, aiding in identifying lifetime variations in the fluorescence signal. This approach also impacts the reconstructed image: points will be highlighted in the same color they fall under in the phasor plot's color map, providing a direct visual correspondence between the plot and the reconstructed image, thus facilitating the interpretation of the sample's properties.
 
 ** Instructions placeholder **
 
