@@ -546,8 +546,9 @@ Utilize the auto-center feature to effortlessly position the circlet at the cent
 
 #### Median filter
 
-In the phasor plot, the median filter, applied separately to each axis, processes points as if they were individual images. This method, replacing each point with the median value of neighboring points, effectively reduces noise. By treating each axis independently, the filter not only enhances data quality and maintains significant features but also reduces the diameter of the point cloud. This reduction in cloud diameter leads to increased precision in FLIM analysis.  
-Crucially, the approach preserves spatial resolution and measurement accuracy, which is centered in the point cloud, thus ensuring improved image clarity while maintaining the integrity of the FLIM data.
+In the context of the phasor plot, a median filter is strategically employed to refine the matrices containing 'g' and 's' values derived from FLIM data. Treating these matrices akin to images, the filter operates on top of the intensity image, replacing each pixel with the median value of its neighboring points. This pixel reassignment extends to the 'g' and 's' images, effectively diminishing noise within the phasor-plot data.
+
+The utilization of the median filter goes beyond enhancing data quality and preserving significant features; it also contributes to the reduction of the phasor-plot cloud diameter. This reduction, in turn, enhances precision in FLIM analysis. Importantly, the method ensures the preservation of spatial resolution and measurement accuracy centered in the point cloud. Consequently, this approach not only improves image clarity but also upholds the integrity of FLIM data, marking a crucial advancement in the field.
 
 ** Instructions placeholder **
 
