@@ -587,7 +587,7 @@ Applying a color map to the background of the phasor plot enhances data analysis
 
 #### Entangled circlets
 
-You can apply a linear gradient between two circlets on the phasor plot. This gradient starts at one circlet and extends upward to the other. The linear band of colors represents the transitional shift between these two distinct clusters, providing a visual representation of the changing fluorescence properties across this region of the phasor plot. The effect of this color map also extends to the reconstructed image: points will be marked with the same color they have on the color map, establishing a visual link between the phasor plot and the reconstructed image, enhancing the interpretation of the sample's properties.
+You can apply a linear gradient between two circlets on the phasor plot. This gradient starts at one circlet and extends upward to the other. The linear band of colors represents the transitional fluorescence lifetime shift between these two distinct circlets, providing a visual representation of the changing fluorescence properties across this region of the phasor plot. The effect of this color map also extends to the reconstructed image: points will be marked with the same color they have on the color map, establishing a visual link between the phasor plot and the reconstructed image, enhancing the interpretation of the sample's properties.
 
 ** Instructions placeholder **
 
