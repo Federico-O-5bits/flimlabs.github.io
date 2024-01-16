@@ -535,8 +535,7 @@ You can relocate a circlet by clicking its center and dragging it to a new posit
 
 #### Circlet centering
 
-Use the auto-center feature to automatically center the circlet within the cloud of points.  
-This function calculates 'g' and 's' for each point, where 'g' represents the abscissa (horizontal axis) and 's' the ordinate (vertical axis) on the phasor plot. It then computes the average values of 'g' and 's' across all points in the cloud. Based on these average values, the feature automatically determines the center of the cloud.
+Utilize the auto-center feature to effortlessly position the circlet at the center of the point cloud. This advanced function computes the average values of 'g' and 's' across all points within the deployed circlet, facilitating an automatic recalibration of the circlet's center based on these computed averages.
 
 <br>
 <div align=center>
