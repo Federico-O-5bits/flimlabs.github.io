@@ -108,7 +108,7 @@
             <a href="#median-filter">Median filter</a>            
             </li> 
             <li>
-            <a href="#applyng-a-phase-gradient-background">Applyng a phase gradient background</a>            
+            <a href="#phase-gradient-background">Phase gradient background</a>            
             </li> 
               <li>
             <a href="#applyng-a-radial-gradient-background">Applyng a radial gradient background</a>            
@@ -559,9 +559,9 @@ The utilization of the median filter goes beyond enhancing data quality and pres
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Applyng a phase gradient background
+#### Phase gradient background
 
-Applying a color map to the background of the phasor plot enhances data analysis. The angular distribution of the color gradient highlights phase differences (phi) among various points in the sample, aiding in identifying temporal variations in the fluorescence signal. This approach also impacts the reconstructed image: points will be highlighted in the same color they fall under in the phasor plot's color map, providing a direct visual correspondence between the plot and the reconstructed image, thus facilitating the interpretation of the sample's properties.
+Applying a color map to the background of the phasor plot enhances data analysis. The angular distribution of the color gradient highlights phase fluorescence lifetime (τφ) differences among various points in the sample, aiding in identifying lifetime variations in the fluorescence signal. This approach also impacts the reconstructed image: points will be highlighted in the same color they fall under in the phasor plot's color map, providing a direct visual correspondence between the plot and the reconstructed image, thus facilitating the interpretation of the sample's properties.
 
 ** Instructions placeholder **
 
