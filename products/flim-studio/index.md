@@ -105,7 +105,7 @@
             <a href="#circlet-centering">Circlet centering</a>            
             </li> 
             <li>
-            <a href="#applyng-a-median-filter">Applyng a median filter</a>            
+            <a href="#median-filter">Median filter</a>            
             </li> 
             <li>
             <a href="#applyng-a-phase-gradient-background">Applyng a phase gradient background</a>            
@@ -544,7 +544,7 @@ Utilize the auto-center feature to effortlessly position the circlet at the cent
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Applyng a median filter
+#### Median filter
 
 In the phasor plot, the median filter, applied separately to each axis, processes points as if they were individual images. This method, replacing each point with the median value of neighboring points, effectively reduces noise. By treating each axis independently, the filter not only enhances data quality and maintains significant features but also reduces the diameter of the point cloud. This reduction in cloud diameter leads to increased precision in FLIM analysis.  
 Crucially, the approach preserves spatial resolution and measurement accuracy, which is centered in the point cloud, thus ensuring improved image clarity while maintaining the integrity of the FLIM data.
