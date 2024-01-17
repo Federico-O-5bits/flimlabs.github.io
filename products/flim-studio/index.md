@@ -132,6 +132,9 @@
         </li>
       </ul>
     </li>
+       <li >
+       <a href="#error">Errors</a>
+    </li>
     <li >
        <a href="#contacts">Contacts</a>
     </li>
@@ -665,6 +668,18 @@ To run the non automatic gmm cluster identification follow these steps:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
+## Errors
+
+The following table outlines the details of each error along with common troubleshooting methods. Should these approaches fail to rectify the issue, please check the [Contacts section](#contacts) and reach out to us for further assistance in resolving the problem.
+
+| Error Code | Error Description | Common Troubleshooting |
+| ---------- | ----------------- | ---------------------- |
+| 100        | Placeholder       | Placeholder            |
+| 200        | Placeholder       | Placeholder            |
+| 300        | Placeholder       | Placeholder            |
+| 400        | Placeholder       | Placeholder            |
+| 500        | Placeholder       | Placeholder            |
 
 ## Contacts
 
